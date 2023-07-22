@@ -1,0 +1,412 @@
+/* ===============Banner============ */
+.banner-content {
+  text-align: center;
+}
+
+.banner-content h1 {
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 700;
+  background: radial-gradient(469.05% 92.64% at 46.45% 50%,
+      #f7f7f7 0%,
+      rgba(255, 255, 255, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-content h1 span {
+  background: radial-gradient(638.83% 111.98% at 37.73% 67.6%,
+      #00adef 0%,
+      rgba(7, 23, 150, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-content p {
+  color: #ab0026;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.banner-content h4 {
+  background: radial-gradient(112.94% 77.59% at 56.12% 79.38%,
+      #989898 0%,
+      rgba(206, 198, 198, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+}
+
+.banner-button {
+  margin-top: 75px;
+}
+
+.banner {
+  padding-top: 100px;
+  position: relative;
+  padding-bottom: 400px;
+}
+
+.banner-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.banner-img img {
+  width: 100%;
+  z-index: -1;
+}
+
+.banner .container {
+  z-index: 1;
+  position: relative;
+}
+
+/* =========================social media====================== */
+.social-service-section {
+  margin-top: -300px;
+  position: relative;
+  /* padding-bottom: 337px; */
+  background: #000;
+  -webkit-clip-path: polygon(50% 8%, 100% 0, 100% 100%, 49% 100%, 1% 100%, 0 0);
+  clip-path: polygon(50% 8%, 100% 0, 100% 100%, 49% 100%, 1% 100%, 0 0);
+}
+
+.slider-social {
+  position: relative;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  transform: rotate(8deg);
+  overflow: hidden;
+  margin-top: 70px;
+  margin-left: 47px;
+}
+
+.roted-ulter {
+  transform: rotate(-16deg);
+  margin-right: 46px;
+}
+
+.slider-social::before {
+  content: "";
+  position: absolute;
+  width: 86px;
+  height: 1px;
+  background: #0b0a0ad4;
+  border-radius: 100%;
+  z-index: 1111;
+  box-shadow: 1px 1px 50px 100px #000000c9;
+  left: 0;
+}
+
+.slider-social::after {
+  content: "";
+  position: absolute;
+  width: 86px;
+  height: 1px;
+  background: #0b0a0ad4;
+  border-radius: 100%;
+  z-index: 1111;
+  box-shadow: 1px 1px 50px 100px #000000c9;
+  right: 0;
+}
+
+.slider-item h2 {
+  font-size: 30px;
+  white-space: nowrap;
+  color: #c8c8c8;
+}
+
+.slider-item {
+  background: #000;
+  border-radius: 30px;
+  padding-bottom: 20px;
+}
+
+.blog-image img {
+  width: 100%;
+}
+
+.blog-content {
+  margin: 20px 0;
+  position: relative;
+}
+
+.blog-content::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 124px;
+  background: linear-gradient(360deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.blog-post-top {
+  margin-top: 179px;
+  margin-bottom: 50px;
+}
+
+.blog-post-top-title h1 {
+  background: radial-gradient(361.68% 108.25% at 25.11% 50%,
+      #e0dede 23.96%,
+      rgba(255, 255, 255, 0) 79.69%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.blog-post-top-title h3 {
+  color: #ab0026;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.slider-nav {
+  background-color: #3f3f3f;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.slider-nav::after {
+  font-size: 20px;
+  color: var(--white-color);
+}
+
+.blog-post-rac {
+  position: absolute;
+  top: 121px;
+  left: 38%;
+  width: 400px;
+  z-index: 0;
+}
+
+.blog-post-top-title {
+  z-index: 1;
+  position: relative;
+}
+
+.view-btn-area {
+  position: relative;
+  padding: 106px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-btn-area h2 {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.1;
+  font-size: 64px;
+  font-weight: 700;
+  top: 30px;
+  z-index: -2;
+}
+
+.view-btn-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.5467436974789917) 0%, rgba(0, 0, 0, 1) 100%);
+  z-index: -1;
+}
+
+/* ===================Tabs area =============== */
+.tab-area-wrapper {
+  background-image: url(../img/tab-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 130px 0;
+}
+
+.tab-title-area {
+  text-align: center;
+}
+
+.tab-title-area h2 {
+  background: radial-gradient(5251.66% 200.39% at 78.83% -22.38%, #000 5.49%, #504E4E 50.35%, #000 72.27%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.tab-title-area h3 {
+  background: radial-gradient(5251.66% 200.39% at 78.83% -22.38%, #000 5.49%, #504E4E 50.35%, #000 72.27%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.tab-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.nav-tab-ul {
+  border-radius: 50px;
+  background: #232323;
+  box-shadow: 15px 20px 40px 2px #000;
+  border: none;
+  padding: 10px;
+}
+
+.nav-tabs-btn {
+  background: none;
+  padding: 8px 34px;
+  color: var(--white-color);
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 50px;
+}
+
+.nav-tabs-btn.active {
+  background: #727272;
+}
+
+.tab-item {
+  background: #000;
+  border-radius: 47px;
+  padding: 60px 100px;
+  -webkit-clip-path: polygon(50% 4%, 100% 0, 98% 50%, 100% 100%, 50% 96%, 0 100%, 2% 50%, 0 0);
+  clip-path: polygon(50% 4%, 100% 0, 98% 50%, 100% 100%, 50% 96%, 0 100%, 2% 50%, 0 0);
+}
+
+.tab-image img {
+  width: 100%;
+}
+
+.tab-content h3 {
+  font-size: 59px;
+  font-weight: 700;
+}
+
+.tab-content-title {
+  background: radial-gradient(9014.37% 180.68% at 92.84% 38.46%, #2C2A2A 0%, #4F4E50 33.77%, #C621EF 52.05%, #3000EF 68.45%, #000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tab-content-title span.tab-1-title-color {
+  background: rgb(41, 1, 154);
+  background: linear-gradient(90deg, rgba(41, 1, 154, 1) 0%, rgba(162, 29, 171, 1) 79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tab-paragraph {
+  font-size: 24px;
+  font-weight: 700;
+  background: radial-gradient(165.51% 94.61% at 48.89% 39.96%, #FFF 0%, #000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 129%;
+}
+
+.tab-paragraph p {
+  margin: 10px 0;
+}
+
+.color-text-tab-1 {
+  background: radial-gradient(206.16% 79.04% at 24.28% 81.47%, #C322EC 0%, #2E01E3 56.41%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-text-tab-2 {
+  background: radial-gradient(165.51% 94.61% at 48.89% 39.96%, #C0F 0%, #242FAE 67.19%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tab-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.tab-content-title2 {
+  background: rgb(64, 11, 180);
+  background: radial-gradient(circle, rgba(64, 11, 180, 1) 0%, rgba(203, 73, 185, 1) 50%, rgba(171, 170, 169, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tab-content-title3 {
+  background: rgb(74, 194, 0);
+  background: linear-gradient(90deg, rgba(74, 194, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-text-tab-3 {
+  background: radial-gradient(165.51% 94.61% at 48.89% 39.96%, #4AC301 0%, #000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tab-content-title4 {
+  background: rgb(255, 208, 40);
+  background: linear-gradient(90deg, rgba(255, 208, 40, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-text-tab-4 {
+  background: radial-gradient(80.23% 76.61% at 37.88% 43.25%, #F4C727 0%, #00440F 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tab-content-title5 {
+  background: rgb(83, 0, 20);
+  background: linear-gradient(90deg, rgba(83, 0, 20, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.color-text-tab-5 {
+  background: radial-gradient(90.50% 77.55% at 47.43% 24.60%, #AD3350 21.88%, #330014 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
