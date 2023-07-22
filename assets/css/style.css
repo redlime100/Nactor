@@ -410,3 +410,42 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* =====================immer section=========== */
+.immer {
+  background-image: url(../img/bg-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.immer-title h2 {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.immer-pragrap {
+  text-align: right;
+}
+
+.immer-title-color {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  background: linear-gradient(168deg, #990101 20.74%, rgba(128, 5, 52, 0.00) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.immer-pragrap p {
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.immer-title {
+  margin-bottom: 64px;
+}
