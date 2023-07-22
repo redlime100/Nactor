@@ -1,22 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800&display=swap'); */
-
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 .footer{
-    padding-top: 100px;
+    padding-top: 0px;
     overflow: hidden;
 }
-/* ul, li, p {
-    padding: 0;
-    margin: 0;
-} */
-/* body{
-    background: rgb(138, 137, 137);
-    font-family: Inter;
-} */
 .footer-wrapper{
     background-image: url(../img/footer/footer-bg-white.png);
     background-repeat: no-repeat;
@@ -36,7 +21,7 @@
     position: absolute;
 }
 .footer-title-content{
-    background-image: url(./images/content-bg.png);
+    background-image: url(../img/footer/content-bg.png);
     border-radius: 30px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,7 +34,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 .footer-title-content h3{
     font-size: 40px;
@@ -67,6 +51,7 @@
     font-family: Inter;
     font-weight: 700;
     color: #fff;
+    padding-top:10px;
 }
 .footer-vorteile-item h1{
     font-size: 60px;
@@ -81,7 +66,11 @@ margin-bottom: 40px;
 }
 .footer-vorteile-item ul li{
     font-size: 25px;
-    color: #fff;
+    padding: 10px 0;
+    background: radial-gradient(168.66% 190.05% at 46.74% 10.21%, #E3E3E3 18.81%, rgba(255, 255, 255, 0.21) 59.06%, rgba(0, 0, 0, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .vorteile-list{
     position: relative;
@@ -128,6 +117,10 @@ font-size: 18px;
     font-weight: 700;
 position: relative;
     color: #fff;
+    background: linear-gradient(249deg, #fff 50.30%, #181818 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 } 
 .footer-all-service-item .service-item-card .service-title::before{
     content: '';
@@ -140,12 +133,17 @@ position: relative;
 
 .footer-all-service-item .service-item-card ul{
     margin-top: 25px;
+    background: linear-gradient(249deg, #fff 50.30%, #181818 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .footer-all-service-item .service-item-card ul li{
     list-style: none;
     font-size: 25px;
     color: #FFF;
     font-weight: 700;
+    
 }
 .social-media-wrapper .follow-title{
     font-size: 30px;
@@ -336,3 +334,76 @@ font-size: 25px;
     list-style: none;
 }
 }
+
+
+/* ============ Company Section Start ================= */
+.company-service-section{
+    background-image: url(../img/footer/bootom-bg-black.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0 0px 0;
+    position: relative;
+    top: -133px;
+}
+.company-slider-wrapper .company-title-section{
+    background: linear-gradient(249deg, #FFF 24.30%, #000 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.company-slider-wrapper .company-title-section span{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 81px;
+}
+.company-slider-wrapper .company-title-section h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 81px;
+    letter-spacing: -5.28px;
+}
+.slider-item .company-list-item-1{
+    background: linear-gradient(249deg, #FFF 24.30%, #000 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.slider-item .company-list-item-4{
+    background: linear-gradient(130deg, #FFF 24.30%, #000 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.slider-item .company-list-item p{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.5px;
+}
+.slider-item .company-list-item p span{
+    color: #9E9E9E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.5px;
+}
+.slider-item .company-list-item .company-user-titles a{
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.5px;
+}
+.slider-item .company-list-item .company-user-titles span{
+    color: #9E9E9E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.5px;
+}
+/* ============ Company Section End ================= */
