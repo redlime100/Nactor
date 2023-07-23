@@ -80,6 +80,7 @@
 .footer-vorteile-item ul li {
     font-size: 25px;
     padding: 10px 0;
+    line-height: 35px;
     background: radial-gradient(168.66% 190.05% at 46.74% 10.21%, #E3E3E3 18.81%, rgba(255, 255, 255, 0.21) 59.06%, rgba(0, 0, 0, 0.00) 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -121,10 +122,10 @@
 .footer-bottom-wrapper {
     background-image: url(../img/footer/bootom-bg-black.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 250px 0 100px 0;
+    background-size: 100%;
+    padding: 351px 0 0px 0;
     position: relative;
-    top: -210px;
+    top: -130px;
 }
 
 .footer-all-service-item .service-item-card span {
@@ -166,7 +167,7 @@
     font-size: 25px;
     color: #FFF;
     font-weight: 700;
-
+    padding: 5px 0;
 }
 
 .social-media-wrapper .follow-title {
@@ -187,6 +188,10 @@
 .social-media-wrapper a img {
     width: 80px;
 }
+.footer-glossar {
+    border-top: 3px solid #fff;
+    padding-top: 20px;
+}
 
 .footer-glossar .glossar-card-item h2 {
     font-size: 60px;
@@ -199,6 +204,7 @@
 .footer-glossar .glossar-card-item p {
     font-size: 16px;
     color: #fff;
+    text-align: justify;
 }
 
 .glossar-card-btn {
