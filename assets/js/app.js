@@ -85,3 +85,19 @@ var swiper = new Swiper(".blogSlider", {
     prevEl: ".swiper-button-prev",
   },
 });
+// ============ Company =============
+var swiper = new Swiper(".companySlider", {
+  slidesPerView: 1,
+  spaceBetween: 100,
+  initialSlide: "3",
+  centeredSlides: true,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  navigator: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
