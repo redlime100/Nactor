@@ -20,30 +20,28 @@ ul.nav-menu {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: radial-gradient(
-    65.5% 117.12% at 37.83% 60.96%,
-    #cecdcd 16.95%,
-    rgba(242, 242, 242, 0) 100%
-  );
+  background: radial-gradient(65.5% 117.12% at 37.83% 60.96%,
+      #cecdcd 16.95%,
+      rgba(242, 242, 242, 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* transition: 0.3s; */
   font-weight: 700;
 }
+
 .nav-item:hover .nav-link {
   background: #fff;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 a.language-link {
   font-weight: 700;
-  background: radial-gradient(
-    469.05% 92.64% at 46.45% 50%,
-    #f7f7f7 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: radial-gradient(469.05% 92.64% at 46.45% 50%,
+      #f7f7f7 0%,
+      rgba(255, 255, 255, 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -54,6 +52,7 @@ a.language-link {
 .header {
   padding: 15px 0;
 }
+
 .mega-menu {
   position: absolute;
   left: 0;
@@ -64,7 +63,10 @@ a.language-link {
   visibility: hidden;
   transition: 0.3s;
   z-index: 99;
+  height: 80vh;
+  background: #000000a6;
 }
+
 li.nav-item:hover .mega-menu {
   opacity: 1;
   visibility: visible;
@@ -117,13 +119,16 @@ a.mega-link {
 a.mega-link:hover {
   color: var(--main-color);
 }
+
 .social-service h3,
 .social-service ul li a {
   font-size: 20px !important;
 }
+
 .mega-wrapper {
   margin-bottom: 20px;
 }
+
 .faq__que {
   width: 100%;
   display: flex;
@@ -141,7 +146,7 @@ a.mega-link:hover {
 }
 
 .faq__ans {
-  color: #5a5a5a;
+  color: #ffffff;
   font-family: Inter;
   font-size: 16px;
   line-height: 170%;
@@ -165,6 +170,7 @@ a.blog-title {
 img.blog-img {
   width: 100%;
 }
+
 ul.social-icon-link {
   display: flex;
   gap: 17px;
@@ -173,4 +179,24 @@ ul.social-icon-link {
 
 .service-menu h5 {
   margin-bottom: 10px;
+}
+
+
+/* =======================responsive header=================== */
+
+.mobile-nav {
+  padding: 10px;
+}
+
+.mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
 }
