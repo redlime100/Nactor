@@ -237,7 +237,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 130px 0;
+  padding: 200px 0;
+  padding-bottom: 300px;
 }
 
 .tab-title-area {
@@ -417,7 +418,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  padding: 200px 0;
+  padding-bottom: 300px;
+  -webkit-clip-path: polygon(50% 7%, 100% 0, 100% 100%, 0 99%, 0 0);
+  clip-path: polygon(50% 7%, 100% 0, 100% 100%, 0 99%, 0 0);
+  margin-top: -100px;
+  border-radius: 100px 100px 0 0;
 }
 
 .immer-title h2 {
@@ -441,11 +447,64 @@
 }
 
 .immer-pragrap p {
-  font-size: 40px;
+  font-size: 35px;
   line-height: 120%;
   font-weight: 700;
 }
 
 .immer-title {
   margin-bottom: 64px;
+}
+
+/* =====================digital================== */
+.digital-content img {
+  width: 100%;
+}
+
+.top-content {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.digital-content {
+  position: relative;
+  padding-top: 254px;
+  padding-bottom: 100px;
+}
+
+.bottom-content h2,
+.top-content h2 {
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  background: radial-gradient(136.82% 311.02% at 53.75% 17.71%, #FFF 3.65%, #FEB579 27.60%, rgba(47, 47, 47, 0.97) 79.17%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2.degital-title-top {
+  background: radial-gradient(3476.32% 229.33% at 50.00% 69.27%, #FFF 0%, #000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.degital-section {
+  -webkit-clip-path: polygon(50% 7%, 100% 0, 100% 100%, 0 99%, 0 0);
+  clip-path: polygon(50% 7%, 100% 0, 100% 100%, 0 99%, 0 0);
+  margin-top: -161px;
+  background: #000;
+  padding-top: 200px;
+}
+
+.bottom-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
 }
