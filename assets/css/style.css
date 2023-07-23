@@ -78,6 +78,7 @@
   background: #000;
   -webkit-clip-path: polygon(50% 8%, 100% 0, 100% 100%, 49% 100%, 1% 100%, 0 0);
   clip-path: polygon(50% 8%, 100% 0, 100% 100%, 49% 100%, 1% 100%, 0 0);
+  overflow: hidden;
 }
 
 .slider-social {
@@ -153,6 +154,16 @@
 .blog-post-top {
   margin-top: 179px;
   margin-bottom: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.blog-post-slider {
+  margin-top: 200px;
 }
 
 .blog-post-top-title h1 {
@@ -162,13 +173,13 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 64px;
   font-weight: 700;
+  font-size: clamp(30px, 3.4vw, 64px);
 }
 
 .blog-post-top-title h3 {
   color: #ab0026;
-  font-size: 40px;
+  font-size: clamp(25px, 2.4vw, 40px);
   font-weight: 700;
 }
 
@@ -189,16 +200,17 @@
 }
 
 .blog-post-rac {
-  position: absolute;
-  top: 121px;
-  left: 38%;
-  width: 400px;
-  z-index: 0;
+  /* position: absolute; */
+  /* top: 121px; */
+  /* left: 38%; */
+  /* width: 400px; */
+  /* z-index: 0; */
 }
 
 .blog-post-top-title {
   z-index: 1;
   position: relative;
+  margin-bottom: 40px;
 }
 
 .view-btn-area {
@@ -642,4 +654,10 @@ h2.service-name3 {
 
 .shadow {
   box-shadow: 12px 10px 20px 3px #000000b3 !important;
+}
+
+.blog-post-slider {
+  margin-left: -30%;
+  margin-right: -30%;
+  margin-top: 165px;
 }

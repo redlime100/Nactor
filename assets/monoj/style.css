@@ -188,6 +188,7 @@
 .social-media-wrapper a img {
     width: 80px;
 }
+
 .footer-glossar {
     border-top: 3px solid #fff;
     padding-top: 20px;
@@ -414,12 +415,13 @@ button.revolution-btn {
 
 /* ============ Company Section Start ================= */
 .company-service-section {
-    background-image: url(../img/footer/bootom-bg-black.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 200px 0 138px 0;
     position: relative;
     top: -133px;
+    background: #000;
+    -webkit-clip-path: polygon(100% 0%, 100% 100%, 0 99%, 0 0, 50% 7%);
+    clip-path: polygon(100% 0%, 100% 100%, 0 99%, 0 0, 50% 7%);
+    border-radius: 143px;
 }
 
 .company-slider-wrapper .company-title-section {
@@ -445,7 +447,8 @@ button.revolution-btn {
     line-height: 81px;
     letter-spacing: -5.28px;
 }
- .company-list-item p {
+
+.company-list-item p {
     color: #FFF;
     font-size: 24px;
     font-style: normal;
@@ -453,7 +456,7 @@ button.revolution-btn {
     line-height: 31.5px;
 }
 
- .company-list-item p span {
+.company-list-item p span {
     color: #9E9E9E;
     font-size: 24px;
     font-style: normal;
@@ -469,7 +472,7 @@ button.revolution-btn {
     line-height: 31.5px;
 }
 
- .company-list-item .company-user-titles span {
+.company-list-item .company-user-titles span {
     color: #9E9E9E;
     font-size: 24px;
     font-style: normal;
@@ -482,7 +485,7 @@ button.revolution-btn {
     background: #151515;
     padding: 30px;
     border-radius: 20px;
-    height:350px ;
+    height: 416px;
 }
 
 .company-overly {
@@ -492,6 +495,7 @@ button.revolution-btn {
     right: 0;
     z-index: 11;
 }
-.company-overly img{
+
+.company-overly img {
     width: 100%;
-} 
+}

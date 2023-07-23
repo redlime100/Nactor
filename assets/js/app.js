@@ -27,15 +27,15 @@ var swiper = new Swiper(".logoSlider", {
   },
   breakpoints: {
     0: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 10,
     },
     640: {
-      slidesPerView: 3,
+      slidesPerView: 1,
       spaceBetween: 20,
     },
     768: {
-      slidesPerView: 4,
+      slidesPerView: 2,
       spaceBetween: 30,
     },
     1024: {
@@ -70,16 +70,32 @@ var swiper = new Swiper(".logoSlider2", {
 });
 
 // ============Blog=============
+
 var swiper = new Swiper(".blogSlider", {
-  slidesPerView: 2.9,
+  slidesPerView: 4,
   spaceBetween: 100,
-  initialSlide: "3",
-  centeredSlides: true,
+  // initialSlide: "3",
+  // centeredSlides: true,
   loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
+  breakpoints: {
+    0: {
+      slidesPerView: 1.2,
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
   },
+  
   
   navigator: {
     nextEl: ".swiper-button-next",
@@ -88,10 +104,9 @@ var swiper = new Swiper(".blogSlider", {
 });
 // ============ Company =============
 var swiper = new Swiper(".companySlider", {
-  slidesPerView: 3.5,
   spaceBetween: 30,
   // initialSlide: "5",
-  centeredSlides: true,
+  // centeredSlides: true,
   loop: true,
   autoplay: {
     delay: 3000,
@@ -107,7 +122,7 @@ var swiper = new Swiper(".companySlider", {
       spaceBetween: 30,
     },
     1024: {
-      slidesPerView: 3.5,
+      slidesPerView: 3.9,
       spaceBetween: 30,
     },
   },
@@ -119,7 +134,7 @@ var swiper = new Swiper(".companySlider", {
 var swiper = new Swiper(".companySlider-2", {
   spaceBetween: 30,
   // initialSlide: "4",
-  centeredSlides: true,
+  // centeredSlides: true,
   loop: true,
   autoplay: {
     delay: 3000,
@@ -135,7 +150,7 @@ var swiper = new Swiper(".companySlider-2", {
       spaceBetween: 30,
     },
     1024: {
-      slidesPerView: 2.5,
+      slidesPerView: 3.2,
       spaceBetween: 30,
     },
   },
