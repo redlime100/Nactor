@@ -439,22 +439,7 @@ button.revolution-btn {
     line-height: 81px;
     letter-spacing: -5.28px;
 }
-
-.slider-item .company-list-item-1 {
-    /* background: linear-gradient(249deg, #FFF 24.30%, #000 100%); */
-    background-clip: text;
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-}
-
-.slider-item .company-list-item-4 {
-    /* background: linear-gradient(130deg, #FFF 24.30%, #000 100%); */
-    background-clip: text;
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-}
-
-.slider-item .company-list-item p {
+ .company-list-item p {
     color: #FFF;
     font-size: 24px;
     font-style: normal;
@@ -462,7 +447,7 @@ button.revolution-btn {
     line-height: 31.5px;
 }
 
-.slider-item .company-list-item p span {
+ .company-list-item p span {
     color: #9E9E9E;
     font-size: 24px;
     font-style: normal;
@@ -470,7 +455,7 @@ button.revolution-btn {
     line-height: 31.5px;
 }
 
-.slider-item .company-list-item .company-user-titles a {
+.company-list-item .company-user-titles a {
     color: #fff;
     font-size: 24px;
     font-style: normal;
@@ -478,7 +463,7 @@ button.revolution-btn {
     line-height: 31.5px;
 }
 
-.slider-item .company-list-item .company-user-titles span {
+ .company-list-item .company-user-titles span {
     color: #9E9E9E;
     font-size: 24px;
     font-style: normal;
@@ -487,12 +472,11 @@ button.revolution-btn {
 }
 
 /* ============ Company Section End ================= */
-
 .company-list-item {
     background: #151515;
-    padding: 20px;
-    border-radius: 10px;
-    height: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    height:350px ;
 }
 
 .company-overly {
@@ -502,3 +486,6 @@ button.revolution-btn {
     right: 0;
     z-index: 11;
 }
+.company-overly img{
+    width: 100%;
+} 

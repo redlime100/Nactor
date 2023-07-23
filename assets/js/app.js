@@ -80,6 +80,7 @@ var swiper = new Swiper(".blogSlider", {
     delay: 3000,
     disableOnInteraction: false,
   },
+  
   navigator: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -87,14 +88,56 @@ var swiper = new Swiper(".blogSlider", {
 });
 // ============ Company =============
 var swiper = new Swiper(".companySlider", {
-  slidesPerView: 1,
-  spaceBetween: 100,
-  initialSlide: "3",
+  slidesPerView: 3.5,
+  spaceBetween: 30,
+  // initialSlide: "5",
   centeredSlides: true,
   loop: true,
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 3.5,
+      spaceBetween: 30,
+    },
+  },
+  navigator: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+var swiper = new Swiper(".companySlider-2", {
+  spaceBetween: 30,
+  // initialSlide: "4",
+  centeredSlides: true,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 2.5,
+      spaceBetween: 30,
+    },
   },
   navigator: {
     nextEl: ".swiper-button-next",
