@@ -1,14 +1,19 @@
-.footer{
+.footer {
     padding-top: 0px;
     overflow: hidden;
+    margin-top: -270px;
+    z-index: 100;
+    position: relative;
 }
-.footer-wrapper{
+
+.footer-wrapper {
     background-image: url(../img/footer/footer-bg-white.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 150px 0 150px 0;
 }
-.footer-fast-item{
+
+.footer-fast-item {
     position: relative;
     width: 100%;
     padding: 0px 30px;
@@ -17,10 +22,12 @@
     justify-content: center;
     align-items: center;
 }
-.footer-content{
+
+.footer-content {
     position: absolute;
 }
-.footer-title-content{
+
+.footer-title-content {
     background-image: url(../img/footer/content-bg.png);
     border-radius: 30px;
     background-repeat: no-repeat;
@@ -29,42 +36,48 @@
     text-align: center;
     width: 100%;
 }
-.footer-title-content .title-gradient{
+
+.footer-title-content .title-gradient {
     background: linear-gradient(250deg, #441DB9 20.73%, #FFF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.footer-title-content h3{
+
+.footer-title-content h3 {
     font-size: 40px;
     font-style: normal;
     font-weight: 900;
 }
-.footer-title-content h1{
+
+.footer-title-content h1 {
     font-size: 80px;
     line-height: 90px;
     font-style: normal;
     font-weight: 900;
 }
-.footer-title-content p{
+
+.footer-title-content p {
     font-size: 30px;
     font-family: Inter;
     font-weight: 700;
     color: #fff;
-    padding-top:10px;
+    padding-top: 10px;
 }
-.footer-vorteile-item h1{
+
+.footer-vorteile-item h1 {
     font-size: 60px;
     font-weight: 900;
     line-height: 70px;
     background: linear-gradient(176deg, #451EB9 0%, #B22AB1 52.92%, #D20E3A 86.64%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: center;
-margin-bottom: 40px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 40px;
 }
-.footer-vorteile-item ul li{
+
+.footer-vorteile-item ul li {
     font-size: 25px;
     padding: 10px 0;
     background: radial-gradient(168.66% 190.05% at 46.74% 10.21%, #E3E3E3 18.81%, rgba(255, 255, 255, 0.21) 59.06%, rgba(0, 0, 0, 0.00) 100%);
@@ -72,11 +85,13 @@ margin-bottom: 40px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.vorteile-list{
+
+.vorteile-list {
     position: relative;
     padding-right: 10px;
 }
-.vorteile-list::before{
+
+.vorteile-list::before {
     content: '';
     position: absolute;
     left: -37px;
@@ -84,22 +99,26 @@ margin-bottom: 40px;
     width: 2px;
     background-color: #fff;
 }
-.footer-title-btn-item .footer-btn{
-padding: 5px 30px;
-border-radius: 50px;
-color: #fff;
-font-size: 18px;
+
+.footer-title-btn-item .footer-btn {
+    padding: 5px 30px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
 }
-.footer-title-btn-item .footer-btn-1{
-    background:#007AFF;
+
+.footer-title-btn-item .footer-btn-1 {
+    background: #007AFF;
     border: none;
 }
-.footer-title-btn-item .footer-btn-2{
+
+.footer-title-btn-item .footer-btn-2 {
     border: 1px solid #fff;
     background: none;
 }
+
 /* bottom */
-.footer-bottom-wrapper{
+.footer-bottom-wrapper {
     background-image: url(../img/footer/bootom-bg-black.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,257 +126,311 @@ font-size: 18px;
     position: relative;
     top: -210px;
 }
-.footer-all-service-item .service-item-card span{
+
+.footer-all-service-item .service-item-card span {
     font-size: 14px;
     color: #FFF;
 }
-.footer-all-service-item .service-item-card .service-title{
+
+.footer-all-service-item .service-item-card .service-title {
     font-size: 60px;
     line-height: 70px;
     font-weight: 700;
-position: relative;
+    position: relative;
     color: #fff;
     background: linear-gradient(249deg, #fff 50.30%, #181818 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-} 
-.footer-all-service-item .service-item-card .service-title::before{
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-all-service-item .service-item-card .service-title::before {
     content: '';
     position: absolute;
     bottom: -10px;
     height: 2px;
-    width:100%;
+    width: 100%;
     background-color: #fff;
 }
 
-.footer-all-service-item .service-item-card ul{
+.footer-all-service-item .service-item-card ul {
     margin-top: 25px;
     background: linear-gradient(249deg, #fff 50.30%, #181818 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.footer-all-service-item .service-item-card ul li{
+
+.footer-all-service-item .service-item-card ul li {
     list-style: none;
     font-size: 25px;
     color: #FFF;
     font-weight: 700;
-    
+
 }
-.social-media-wrapper .follow-title{
+
+.social-media-wrapper .follow-title {
     font-size: 30px;
     color: #FFF;
     font-weight: 700;
     text-align: center;
     background: radial-gradient(469.05% 92.64% at 46.45% 50.00%, #F7F7F7 0%, rgba(255, 255, 255, 0.00) 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.social-media-wrapper a{
+
+.social-media-wrapper a {
     text-align: center;
 }
-.social-media-wrapper a img{width: 80px;}
-.footer-glossar .glossar-card-item h2{
+
+.social-media-wrapper a img {
+    width: 80px;
+}
+
+.footer-glossar .glossar-card-item h2 {
     font-size: 60px;
     line-height: 70px;
     font-weight: 700;
-position: relative;
+    position: relative;
     color: #fff;
 }
-.footer-glossar .glossar-card-item p{
+
+.footer-glossar .glossar-card-item p {
     font-size: 16px;
     color: #fff;
 }
-.glossar-card-btn{
-    padding: 5px 30px;
-border-radius: 50px;
-color: #fff;
-font-size: 18px;
-border: 1px solid #fff;
-background: none;
-}
-.language-change-items a{
-    color: #fff;
-    font-size: 18px;
-}
-.language-change-items a:hover{
-    color: #fff;
-}
-.footer-item-links a{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-}
-.footer-logo-img img{
-    width: 60%;
-    text-align: center;
-    margin: auto;
-}
-.footer-item-links a:hover{
-    color: #fff;
-}
-.footer-bottom-content-con p{
-    color: #fff;
-    font-size: 18px;
-}
-.mobile-services-item{
-    display: none;
-}
-.glossar-card-item-mobile{
-    display: none;
-}
-button.revolution-btn {
-    display: none;
-}
-/* Footer  Responsive  */
-@media screen and (max-width: 1240px) {
-    .footer-wrapper{
-background-position: center;
-    }
-    .footer-bottom-wrapper{
-background-position: center;
-    }
-}
-@media screen and (max-width: 992px) {
-.vorteile-li-list{
-    display: none;
-}
-.footer-vorteile-item ul li{
-    font-size: 18px;
-    list-style: none;
-    text-decoration: underline;
-    padding: 10px 0;
-}
-.vorteile-list::before{
-    display: none;
-}
-.footer-title-content h3 {
-    font-size: 30px;
-}
-.footer-title-content h1 {
-    font-size: 52px;
-    line-height: 60px;
-}
-.footer-title-content p {
-    font-size: 18px;
-}
-.footer-vorteile-item h1 {
-    font-size: 40px;
-    line-height: 50px;
-    margin-bottom: 20px;
-}
-.revolution-btn{
+
+.glossar-card-btn {
     padding: 5px 30px;
     border-radius: 50px;
     color: #fff;
     font-size: 18px;
-    background:#007AFF;
-    border: none;
-}
-.footer-all-service-item .service-item-card ul li {
-    font-size: 20px;
-}
-footer-all-service-item .service-item-card .service-title {
-    font-size: 40px;
-}
-.glossar-card-item p{
-    display: none;
-}
-.footer-all-service-item{
-    flex-direction: column;
-}
-.footer-all-service-item{
-    display: none !important;
-}
-.mobile-services-item{
-    display: block;
-}
-.mobile-services-item .accordion-item{
-    background-color: #000 !important;
-color: #fff;
-font-weight: 600;
-} 
-button.accordion-button.collapsed {
+    border: 1px solid #fff;
     background: none;
+}
+
+.language-change-items a {
     color: #fff;
-font-weight: 600;
-font-size: 25px;
+    font-size: 18px;
 }
-.accordion-button {
-    font-size: 25px;
-    padding: 10px 20px;
-}
-.accordion-button-2 {
+
+.language-change-items a:hover {
     color: #fff;
-    background-color: #000;
 }
-.accordion-button:focus {
-    z-index: 3;
-    border-color: #000;
-    outline: 0;
-    box-shadow: 0 0 0 0.25rem #000;
-}
-.accordion-button:not(.collapsed) {
+
+.footer-item-links a {
     color: #fff;
-    background-color: #000;
-    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    font-size: 18px;
+    font-weight: 600;
 }
-.footer-glossar .glossar-card-item{
+
+.footer-logo-img img {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-item-links a:hover {
+    color: #fff;
+}
+
+.footer-bottom-content-con p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.mobile-services-item {
     display: none;
 }
-.social-media-wrapper{
-    margin-top: 25px;
-    flex-direction: inherit !important;
-}
-.social-media-wrapper a img {
-    width: 30px;
-}
-.social-media-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.social-media-wrapper .follow-title {
-    font-size: 22px;
-}
-.language-change-items{
+
+.glossar-card-item-mobile {
     display: none;
 }
-.footer-bottom-wrapper {
-    padding: 100px 0 63px 0;
-    position: relative;
-    top: -210px;
+
+button.revolution-btn {
+    display: none;
 }
-.accordion-body .list-service{
-    list-style: none;
+
+/* Footer  Responsive  */
+@media screen and (max-width: 1240px) {
+    .footer-wrapper {
+        background-position: center;
+    }
+
+    .footer-bottom-wrapper {
+        background-position: center;
+    }
 }
+
+@media screen and (max-width: 992px) {
+    .vorteile-li-list {
+        display: none;
+    }
+
+    .footer-vorteile-item ul li {
+        font-size: 18px;
+        list-style: none;
+        text-decoration: underline;
+        padding: 10px 0;
+    }
+
+    .vorteile-list::before {
+        display: none;
+    }
+
+    .footer-title-content h3 {
+        font-size: 30px;
+    }
+
+    .footer-title-content h1 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+    .footer-title-content p {
+        font-size: 18px;
+    }
+
+    .footer-vorteile-item h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .revolution-btn {
+        padding: 5px 30px;
+        border-radius: 50px;
+        color: #fff;
+        font-size: 18px;
+        background: #007AFF;
+        border: none;
+    }
+
+    .footer-all-service-item .service-item-card ul li {
+        font-size: 20px;
+    }
+
+    footer-all-service-item .service-item-card .service-title {
+        font-size: 40px;
+    }
+
+    .glossar-card-item p {
+        display: none;
+    }
+
+    .footer-all-service-item {
+        flex-direction: column;
+    }
+
+    .footer-all-service-item {
+        display: none !important;
+    }
+
+    .mobile-services-item {
+        display: block;
+    }
+
+    .mobile-services-item .accordion-item {
+        background-color: #000 !important;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    button.accordion-button.collapsed {
+        background: none;
+        color: #fff;
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .accordion-button {
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+
+    .accordion-button-2 {
+        color: #fff;
+        background-color: #000;
+    }
+
+    .accordion-button:focus {
+        z-index: 3;
+        border-color: #000;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem #000;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #fff;
+        background-color: #000;
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+    }
+
+    .footer-glossar .glossar-card-item {
+        display: none;
+    }
+
+    .social-media-wrapper {
+        margin-top: 25px;
+        flex-direction: inherit !important;
+    }
+
+    .social-media-wrapper a img {
+        width: 30px;
+    }
+
+    .social-media-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-media-wrapper .follow-title {
+        font-size: 22px;
+    }
+
+    .language-change-items {
+        display: none;
+    }
+
+    .footer-bottom-wrapper {
+        padding: 100px 0 63px 0;
+        position: relative;
+        top: -210px;
+    }
+
+    .accordion-body .list-service {
+        list-style: none;
+    }
 }
 
 
 /* ============ Company Section Start ================= */
-.company-service-section{
+.company-service-section {
     background-image: url(../img/footer/bootom-bg-black.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px 0 0px 0;
+    padding: 200px 0 138px 0;
     position: relative;
     top: -133px;
 }
-.company-slider-wrapper .company-title-section{
+
+.company-slider-wrapper .company-title-section {
     background: linear-gradient(249deg, #FFF 24.30%, #000 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.company-slider-wrapper .company-title-section span{
+
+.company-slider-wrapper .company-title-section span {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: 81px;
 }
-.company-slider-wrapper .company-title-section h1{
+
+.company-slider-wrapper .company-title-section h1 {
     color: #FFF;
     font-family: Inter;
     font-size: 96px;
@@ -366,44 +439,66 @@ background-clip: text;
     line-height: 81px;
     letter-spacing: -5.28px;
 }
-.slider-item .company-list-item-1{
-    background: linear-gradient(249deg, #FFF 24.30%, #000 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+
+.slider-item .company-list-item-1 {
+    /* background: linear-gradient(249deg, #FFF 24.30%, #000 100%); */
+    background-clip: text;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
 }
-.slider-item .company-list-item-4{
-    background: linear-gradient(130deg, #FFF 24.30%, #000 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+
+.slider-item .company-list-item-4 {
+    /* background: linear-gradient(130deg, #FFF 24.30%, #000 100%); */
+    background-clip: text;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
 }
-.slider-item .company-list-item p{
+
+.slider-item .company-list-item p {
     color: #FFF;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
 }
-.slider-item .company-list-item p span{
+
+.slider-item .company-list-item p span {
     color: #9E9E9E;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
 }
-.slider-item .company-list-item .company-user-titles a{
+
+.slider-item .company-list-item .company-user-titles a {
     color: #fff;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
 }
-.slider-item .company-list-item .company-user-titles span{
+
+.slider-item .company-list-item .company-user-titles span {
     color: #9E9E9E;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
 }
+
 /* ============ Company Section End ================= */
+
+.company-list-item {
+    background: #151515;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.company-overly {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+}

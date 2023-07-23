@@ -235,10 +235,10 @@
 .tab-area-wrapper {
   background-image: url(../img/tab-bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
-  padding: 200px 0;
-  padding-bottom: 300px;
+  padding: 124px 0;
+  padding-bottom: 207px;
 }
 
 .tab-title-area {
@@ -511,11 +511,36 @@ h2.degital-title-top {
 
 
 .service {
-  background-image: url(../img/bg-5.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 350px;
-  padding-bottom: 140px;
+  padding-top: 239px;
+  padding-bottom: 229px;
+  background: #bbb;
+  -webkit-clip-path: polygon(11% 7%, 50% 10%, 89% 6%, 95% 0, 100% 7%, 100% 100%, 0 100%, 0 7%, 5% 0);
+  clip-path: polygon(11% 7%, 50% 10%, 89% 6%, 95% 0, 100% 7%, 100% 100%, 0 100%, 0 7%, 5% 0);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-sine {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.service::before {
+  content: "";
+  /* left: 0; */
+  /* right: 0; */
+  top: 10%;
+  bottom: 4%;
+  position: absolute;
+  background: #fffc;
+  z-index: -1;
+  box-shadow: 1px 1px 500px 100px #fff;
+  width: 0;
+  transform: rotate(1deg);
+  border-radius: 50%;
 }
 
 /* ====================service ================ */
