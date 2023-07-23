@@ -144,3 +144,15 @@ var swiper = new Swiper(".companySlider-2", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+
+
+// =====================mobile toggle =========
+$("#openMenu").click(function(){
+  $(".side-menu").addClass("active");
+});
+
+$("#closeMenu").click(function(){
+  $(".side-menu").removeClass("active");
+});
+
