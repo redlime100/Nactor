@@ -142,12 +142,6 @@
 .footer-all-service-item .service-item-card span {
     font-size: 14px;
     color: #FFF;
-    position: absolute;
-    top: -20px;
-}
-
-.service-item-card {
-    position: relative;
 }
 
 .footer-all-service-item .service-item-card .service-title {
@@ -459,7 +453,7 @@ button.revolution-btn {
 
 .company-slider-wrapper .company-title-section span {
     font-size: clamp(20px, 3.4vw, 64px);
-    /* font-style: normal; */
+    font-style: normal;
     font-weight: 700;
     line-height: 120%;
 }
@@ -476,7 +470,7 @@ button.revolution-btn {
 
 .company-list-item p {
     color: #FFF;
-    font-size: clamp(14px, 3.4vw, 24px);
+    /* font-size: clamp(14px, 1.4vw, 24px); */
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
@@ -484,7 +478,7 @@ button.revolution-btn {
 
 .company-list-item p span {
     color: #9E9E9E;
-    font-size: clamp(14px, 3.4vw, 24px);
+    /* font-size: clamp(14px, 3.4vw, 24px); */
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
@@ -492,7 +486,7 @@ button.revolution-btn {
 
 .company-list-item .company-user-titles a {
     color: #fff;
-    font-size: clamp(14px, 3.4vw, 24px);
+    /* font-size: clamp(14px, 3.4vw, 24px); */
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
@@ -500,7 +494,7 @@ button.revolution-btn {
 
 .company-list-item .company-user-titles span {
     color: #9E9E9E;
-    font-size: clamp(14px, 3.4vw, 24px);
+    /* font-size: clamp(14px, 3.4vw, 24px); */
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
@@ -512,6 +506,7 @@ button.revolution-btn {
     padding: 30px;
     border-radius: 20px;
     height: 416px;
+    font-size: clamp(18px, 1.4vw, 21px);
 }
 
 .company-overly {
