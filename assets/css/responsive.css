@@ -30,6 +30,18 @@
     .blog-post-top {
         margin-top: 136px;
     }
+
+    .service {
+        padding-top: 170px;
+        padding-bottom: 229px;
+        -webkit-clip-path: polygon(11% 7%, 50% 10%, 89% 6%, 95% 0, 100% 7%, 100% 100%, 0 100%, 0 7%, 5% 0);
+        clip-path: polygon(8% 3%, 50% 5%, 92% 3%, 97% 0, 100% 4%, 100% 100%, 0 100%, 0 4%, 4% 0);
+    }
+
+    .service-card-wrapper {
+        -webkit-clip-path: polygon(100% 0%, 100% 100%, 0 99%, 0 0, 50% 7%);
+        clip-path: polygon(100% 0%, 100% 100%, 0 100%, 0 0, 50% 3%);
+    }
 }
 
 @media screen and (max-width:992px) {
@@ -44,9 +56,60 @@
     .banner {
         padding-bottom: 296px;
     }
+
+    .tab-item {
+        -webkit-clip-path: polygon(50% 4%, 100% 0, 98% 50%, 100% 100%, 50% 96%, 0 100%, 2% 50%, 0 0);
+        clip-path: polygon(50% 2%, 100% 0, 99% 50%, 100% 100%, 50% 98%, 0 100%, 1% 50%, 0 0);
+        padding: 36px;
+    }
+
+    .tab-area-wrapper {
+        padding-bottom: 205px;
+        -webkit-clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
+        clip-path: polygon(50% 2%, 100% 0, 100% 100%, 0 100%, 0 0);
+        border-radius: 50px;
+    }
+
+    .degital-section {
+        padding-top: 0;
+    }
+
+    .company-service-section {
+        padding: 86px 0 138px 0;
+        -webkit-clip-path: polygon(100% 0%, 100% 100%, 0 99%, 0 0, 50% 7%);
+        clip-path: polygon(100% 0%, 100% 100%, 0 100%, 0 0, 50% 3%);
+        border-radius: 60px;
+    }
+
+    .footer-wrapper {
+        background: none;
+        padding-top: 50px;
+    }
+
+    .footer-fast-item {
+        border-radius: 50px;
+    }
+
 }
 
 @media screen and (max-width:768px) {
+    .company-list-item {
+        height: 332px;
+    }
+
+    .service-card {
+        display: none;
+    }
+
+    .immer {
+        padding: 108px 0;
+        padding-bottom: 214px;
+        -webkit-clip-path: polygon(50% 7%, 100% 0, 100% 100%, 0 99%, 0 0);
+        clip-path: polygon(50% 7%, 100% 0, 100% 100%, 0 99%, 0 0);
+        margin-top: -136px;
+        border-radius: 50px 50px 0 0;
+    }
+
     .banner-content h1 {
         font-size: 40px;
     }
@@ -79,9 +142,32 @@
     .roted-ulter {
         margin-right: 0;
     }
+
+    .service-card-wrapper {
+        border-radius: 42px;
+        padding: 44px;
+    }
+
+    .footer-wrapper {
+        background-image: none;
+        padding: 33px 0 106px 0;
+    }
+
+    ul.vorteile-list {
+        padding: 0 27px;
+    }
+
+    .tab-paragraph {
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (max-width:450px) {
+    .company-service-section {
+        padding: 86px 0 97px 0;
+    }
+
     .banner-content h1 {
         font-size: 30px;
     }
@@ -97,5 +183,59 @@
     .banner {
         padding-top: 34px;
         /* padding-bottom: 263px; */
+    }
+
+    .tab-paragraph {
+        font-size: 15px;
+    }
+
+    .service {
+        padding-top: 107px;
+        padding-bottom: 168px;
+
+    }
+
+    .cta-alt-btn,
+    .custom-btn {
+        font-size: 12px;
+    }
+
+    .footer-title-content h3 {
+        font-size: 19px;
+    }
+
+    .footer-title-content h1 {
+        font-size: 35px;
+
+    }
+
+    .footer-title-btn-item .footer-btn {
+
+        font-size: 10px;
+    }
+
+    .footer {
+        margin-top: -215px;
+    }
+
+
+    .footer-fast-item {
+        padding: 37px;
+        -webkit-clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
+        clip-path: polygon(50% 4%, 100% 0, 100% 100%, 0 100%, 0 0);
+        padding-top: 88px;
+    }
+
+    .footer-vorteile-item ul li {
+        font-size: 23px;
+    }
+
+    .footer-vorteile-item h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .footer-shadow {
+        display: block;
     }
 }

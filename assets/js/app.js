@@ -142,7 +142,7 @@ var swiper = new Swiper(".companySlider-2", {
   },
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 1.4,
       spaceBetween: 10,
     },
     768: {

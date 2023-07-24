@@ -70,6 +70,10 @@
   position: relative;
 }
 
+.bg-sine img {
+  width: 100%;
+}
+
 /* =========================social media====================== */
 .social-service-section {
   margin-top: -300px;
@@ -245,12 +249,12 @@
 
 /* ===================Tabs area =============== */
 .tab-area-wrapper {
-  background-image: url(../img/tab-bg.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-repeat: no-repeat;
   padding: 124px 0;
-  padding-bottom: 207px;
+  padding-bottom: 305px;
+  background: #ddd;
+  border-radius: 130px;
+  -webkit-clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
 }
 
 .tab-title-area {
@@ -262,8 +266,8 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 96px;
   font-weight: 700;
+  font-size: clamp(40px, 3.4vw, 96px);
 }
 
 .tab-title-area h3 {
@@ -271,8 +275,8 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 48px;
   font-weight: 700;
+  font-size: clamp(20px, 3.4vw, 48px);
 }
 
 .tab-area {
@@ -280,6 +284,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  /* overflow: scroll; */
 }
 
 .nav-tab-ul {
@@ -288,6 +293,15 @@
   box-shadow: 15px 20px 40px 2px #000;
   border: none;
   padding: 10px;
+  flex-wrap: initial;
+  overflow-x: auto;
+
+
+}
+
+.nav-tab-ul::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 .nav-tabs-btn {
@@ -298,6 +312,7 @@
   font-size: 24px;
   font-weight: 700;
   border-radius: 50px;
+  font-size: clamp(14px, 3.4vw, 24px);
 }
 
 .nav-tabs-btn.active {
@@ -317,7 +332,7 @@
 }
 
 .tab-content h3 {
-  font-size: 59px;
+  font-size: clamp(30px, 3.4vw, 59px);
   font-weight: 700;
 }
 
@@ -434,12 +449,12 @@
   padding-bottom: 300px;
   -webkit-clip-path: polygon(50% 7%, 100% 0, 100% 100%, 0 99%, 0 0);
   clip-path: polygon(50% 7%, 100% 0, 100% 100%, 0 99%, 0 0);
-  margin-top: -100px;
+  margin-top: -205px;
   border-radius: 100px 100px 0 0;
 }
 
 .immer-title h2 {
-  font-size: 96px;
+  font-size: clamp(35px, 4.4vw, 96px);
   font-style: normal;
   font-weight: 700;
 }
@@ -449,7 +464,7 @@
 }
 
 .immer-title-color {
-  font-size: 96px;
+  font-size: clamp(35px, 4.4vw, 96px);
   font-style: normal;
   font-weight: 700;
   background: linear-gradient(168deg, #990101 20.74%, rgba(128, 5, 52, 0.00) 100%);
@@ -459,7 +474,7 @@
 }
 
 .immer-pragrap p {
-  font-size: 35px;
+  font-size: clamp(17px, 2.4vw, 35px);
   line-height: 120%;
   font-weight: 700;
 }
@@ -489,7 +504,7 @@
 
 .bottom-content h2,
 .top-content h2 {
-  font-size: 120px;
+  font-size: clamp(50px, 7.4vw, 120px);
   font-style: normal;
   font-weight: 700;
   background: radial-gradient(136.82% 311.02% at 53.75% 17.71%, #FFF 3.65%, #FEB579 27.60%, rgba(47, 47, 47, 0.97) 79.17%);
@@ -510,7 +525,7 @@ h2.degital-title-top {
   clip-path: polygon(50% 7%, 100% 0, 100% 100%, 0 99%, 0 0);
   margin-top: -161px;
   background: #000;
-  padding-top: 200px;
+  padding-top: 70px;
 }
 
 .bottom-content {
@@ -538,6 +553,7 @@ h2.degital-title-top {
   position: absolute;
   left: 0;
   right: 0;
+  z-index: -1;
 }
 
 .service::before {
@@ -608,7 +624,7 @@ h2.degital-title-top {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: 38px;
+  font-size: clamp(20px, 1.4vw, 38px);
   text-align: left;
 }
 
@@ -660,4 +676,23 @@ h2.service-name3 {
   margin-left: -30%;
   margin-right: -30%;
   margin-top: 165px;
+}
+
+.tab-area-wrapper::before {
+  content: "";
+  /* left: 0; */
+  /* right: 0; */
+  top: 10%;
+  bottom: 4%;
+  position: absolute;
+  background: #fffc;
+  z-index: -1;
+  box-shadow: 1px 1px 500px 100px #fff;
+  width: 0;
+  transform: rotate(1deg);
+  border-radius: 50%;
+}
+
+.before-none::before {
+  display: none;
 }

@@ -7,10 +7,12 @@
 }
 
 .footer-wrapper {
-    background-image: url(../img/footer/footer-bg-white.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 150px 0 150px 0;
+    background: #ddd;
+    border-radius: 70px 70px 0 0;
+    -webkit-clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
+    position: relative;
 }
 
 .footer-fast-item {
@@ -21,10 +23,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #000;
+    padding: 50px;
+    border-radius: 100px;
+    -webkit-clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
+    padding-top: 140px;
 }
 
 .footer-content {
-    position: absolute;
+    /* position: absolute; */
 }
 
 .footer-title-content {
@@ -120,12 +128,13 @@
 
 /* bottom */
 .footer-bottom-wrapper {
-    background-image: url(../img/footer/bootom-bg-black.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 351px 0 0px 0;
+    padding: 232px 0 0px 0;
     position: relative;
-    top: -130px;
+    top: -57px;
+    background: #000;
+    -webkit-clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
+    border-radius: 100px;
 }
 
 .footer-all-service-item .service-item-card span {
@@ -276,10 +285,17 @@ button.revolution-btn {
     }
 
     .footer-vorteile-item ul li {
-        font-size: 18px;
+        font-size: 28px;
         list-style: none;
         text-decoration: underline;
         padding: 10px 0;
+        font-weight: 700;
+        border-bottom: 2px solid #ddd;
+        background-clip: text;
+        background: radial-gradient(9014.37% 180.68% at 92.84% 38.46%, #2C2A2A 0%, #4F4E50 33.77%, #C621EF 52.05%, #3000EF 68.45%, #000 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .vorteile-list::before {
@@ -404,7 +420,9 @@ button.revolution-btn {
     .footer-bottom-wrapper {
         padding: 100px 0 63px 0;
         position: relative;
-        top: -210px;
+        top: 0;
+        margin-top: -67px;
+        border-radius: 40px;
     }
 
     .accordion-body .list-service {
@@ -432,25 +450,25 @@ button.revolution-btn {
 }
 
 .company-slider-wrapper .company-title-section span {
-    font-size: 64px;
+    font-size: clamp(20px, 3.4vw, 64px);
     font-style: normal;
     font-weight: 700;
-    line-height: 81px;
+    /* line-height: 81px; */
 }
 
 .company-slider-wrapper .company-title-section h1 {
     color: #FFF;
     font-family: Inter;
-    font-size: 96px;
+    font-size: clamp(35px, 5.4vw, 96px);
     font-style: normal;
     font-weight: 700;
-    line-height: 81px;
-    letter-spacing: -5.28px;
+    /* line-height: 81px; */
+    /* letter-spacing: -5.28px; */
 }
 
 .company-list-item p {
     color: #FFF;
-    font-size: 24px;
+    font-size: clamp(14px, 3.4vw, 24px);
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
@@ -458,7 +476,7 @@ button.revolution-btn {
 
 .company-list-item p span {
     color: #9E9E9E;
-    font-size: 24px;
+    font-size: clamp(14px, 3.4vw, 24px);
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
@@ -466,7 +484,7 @@ button.revolution-btn {
 
 .company-list-item .company-user-titles a {
     color: #fff;
-    font-size: 24px;
+    font-size: clamp(14px, 3.4vw, 24px);
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
@@ -474,7 +492,7 @@ button.revolution-btn {
 
 .company-list-item .company-user-titles span {
     color: #9E9E9E;
-    font-size: 24px;
+    font-size: clamp(14px, 3.4vw, 24px);
     font-style: normal;
     font-weight: 700;
     line-height: 31.5px;
@@ -498,4 +516,13 @@ button.revolution-btn {
 
 .company-overly img {
     width: 100%;
+}
+
+
+.footer-shadow {
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    width: 100%;
+    display: none;
 }
