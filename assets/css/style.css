@@ -749,13 +749,13 @@ h2.service-name3 {
 
 .tab-pane {
   display: block;
-  filter: drop-shadow(10px 17px 29px black);
+  filter: drop-shadow(20px 35px 22px black);
 }
 
 .logo-slider-wrapper::before {
   position: absolute;
   content: "";
-  bottom: -74%;
+  bottom: -90%;
   top: 0;
   background-image: url(../img/slider-bg.png);
   width: 100%;
