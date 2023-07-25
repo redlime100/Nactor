@@ -76,10 +76,10 @@ var swiper = new Swiper(".blogSlider", {
   spaceBetween: 100,
   centeredSlides: true,
   loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
 
   navigation: {
     nextEl: '.swiper-button-next',
@@ -95,7 +95,7 @@ var swiper = new Swiper(".blogSlider", {
       spaceBetween: 30,
     },
     1024: {
-      slidesPerView: 5,
+      slidesPerView: 1.3,
       spaceBetween: 30,
     },
   },
