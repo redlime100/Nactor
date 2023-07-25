@@ -73,7 +73,6 @@ var swiper = new Swiper(".logoSlider2", {
 // ============Blog=============
 
 var swiper = new Swiper(".blogSlider", {
-  spaceBetween: 100,
   centeredSlides: true,
   loop: true,
   // autoplay: {
@@ -91,12 +90,40 @@ var swiper = new Swiper(".blogSlider", {
       spaceBetween: 10,
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 30,
     },
     1024: {
       slidesPerView: 1.3,
       spaceBetween: 30,
+    },
+  },
+  
+  
+
+});
+
+
+
+
+var swiper = new Swiper(".blogSliderMobile", {
+  spaceBetween: 30,
+  slidesPerView: 1.2,
+  centeredSlides: true,
+  loop: true,
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+},
+  breakpoints: {
+    0: {
+      slidesPerView: 1.2,
+      spaceBetween: 10,
     },
   },
   
