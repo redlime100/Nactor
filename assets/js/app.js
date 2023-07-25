@@ -40,6 +40,10 @@ var swiper = new Swiper(".logoSlider", {
       spaceBetween: 30,
     },
     1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    1200: {
       slidesPerView: 5,
       spaceBetween: 30,
     },
@@ -63,7 +67,8 @@ var swiper = new Swiper(".logoSlider2", {
       slidesPerView: 2,
       spaceBetween: 30,
     },
-    1024: {
+    
+    1200: {
       slidesPerView: 3,
       spaceBetween: 30,
     },
@@ -136,13 +141,13 @@ var swiper = new Swiper(".companySlider", {
   // initialSlide: "5",
   // centeredSlides: true,
   loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 1.5,
       spaceBetween: 10,
     },
     768: {
@@ -150,6 +155,11 @@ var swiper = new Swiper(".companySlider", {
       spaceBetween: 30,
     },
     1024: {
+      slidesPerView:2.5,
+      spaceBetween: 30,
+    },
+
+    1250: {
       slidesPerView: 3.9,
       spaceBetween: 30,
     },
@@ -164,13 +174,13 @@ var swiper = new Swiper(".companySlider-2", {
   // initialSlide: "4",
   // centeredSlides: true,
   loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 1.3,
       spaceBetween: 10,
     },
     768: {
@@ -178,7 +188,11 @@ var swiper = new Swiper(".companySlider-2", {
       spaceBetween: 30,
     },
     1024: {
-      slidesPerView: 3.2,
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1250: {
+      slidesPerView: 3.5,
       spaceBetween: 30,
     },
   },
