@@ -10,7 +10,7 @@
     }
 
     .footer {
-        margin-top: -250px;
+        margin-top: -197px;
     }
 
     .service-inner-wrapper {
@@ -117,7 +117,7 @@
     }
 
     .immer {
-        clip-path: none;
+        /* clip-path: none; */
         background-size: 100%;
         position: relative;
         /* z-index: 1; */
@@ -176,7 +176,7 @@
 
 
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
     .social-service-section {
         margin-top: -205px;
     }
@@ -214,6 +214,7 @@
 
     .degital-section {
         padding-top: 0;
+        position: relative;
     }
 
     .company-service-section {
@@ -227,9 +228,7 @@
         padding-top: 50px;
     }
 
-    .footer-fast-item {
-        border-radius: 50px;
-    }
+
 
     .footer-shadow {
         display: block;
@@ -245,7 +244,7 @@
     }
 
     .immer {
-        clip-path: none;
+        /* clip-path: none; */
         background-size: 100%;
         position: relative;
         /* z-index: 1; */
@@ -256,6 +255,20 @@
 }
 
 @media screen and (max-width:768px) {
+    .footer {
+        margin-top: -197px;
+    }
+
+    .service-mobile-cta {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .service-cta {
+        display: none;
+    }
+
     .immer-pragrap a {
         display: none;
     }
@@ -270,9 +283,12 @@
 
     .immer {
         padding: 108px 0;
-        padding-bottom: 214px;
-        margin-top: -136px;
-        border-radius: 50px 50px 0 0;
+        padding-bottom: 125px;
+        margin-top: -118px;
+        border-radius: 0;
+        background-color: #000;
+        margin-bottom: 100px;
+        background-position: bottom;
     }
 
     .banner-content h1 {
@@ -311,7 +327,8 @@
 
     .service-card-wrapper {
         border-radius: 42px;
-        padding: 44px;
+        padding: 85px 40px;
+        clip-path: polygon(0% 3.643%, 0% 3.643%, 0.106% 2.987%, 0.412% 2.375%, 0.895% 1.815%, 1.537% 1.317%, 2.317% 0.891%, 3.213% 0.546%, 4.207% 0.292%, 5.276% 0.137%, 6.401% 0.091%, 7.562% 0.164%, 49.415% 5.003%, 49.415% 5.003%, 49.67% 5.029%, 49.925% 5.05%, 50.182% 5.064%, 50.44% 5.073%, 50.697% 5.075%, 50.955% 5.072%, 51.212% 5.063%, 51.469% 5.047%, 51.725% 5.026%, 51.979% 4.999%, 92.404% 0.193%, 92.404% 0.193%, 93.568% 0.116%, 94.697% 0.159%, 95.771% 0.312%, 96.769% 0.565%, 97.67% 0.91%, 98.453% 1.336%, 99.099% 1.834%, 99.586% 2.395%, 99.893% 3.01%, 100% 3.668%, 100% 91.816%, 100% 91.816%, 99.936% 92.321%, 99.751% 92.807%, 99.451% 93.266%, 99.046% 93.695%, 98.544% 94.087%, 97.951% 94.437%, 97.278% 94.74%, 96.531% 94.989%, 95.718% 95.181%, 94.849% 95.308%, 51.032% 99.88%, 51.032% 99.88%, 50.804% 99.902%, 50.575% 99.918%, 50.345% 99.93%, 50.114% 99.937%, 49.884% 99.939%, 49.653% 99.937%, 49.423% 99.93%, 49.193% 99.918%, 48.964% 99.901%, 48.735% 99.88%, 5.146% 95.31%, 5.146% 95.31%, 4.277% 95.182%, 3.466% 94.991%, 2.719% 94.741%, 2.046% 94.438%, 1.455% 94.088%, 0.952% 93.696%, 0.548% 93.268%, 0.249% 92.809%, 0.064% 92.324%, 0% 91.818%, 0% 3.643%);
     }
 
     .footer-wrapper {
@@ -351,6 +368,53 @@
     .tab-content h3 {
         font-size: clamp(39px, 4.4vw, 59px);
         font-weight: 700;
+    }
+
+    .company-service-section {
+        padding: 104px 0 37px 0;
+    }
+
+    .company-service-section {
+        top: -98px;
+    }
+
+    .tab-area-wrapper {
+        padding-bottom: 55px;
+        border-radius: 50px;
+    }
+
+    .tab-item {
+        padding: 75px 51px;
+    }
+
+    .service {
+        padding-top: 131px;
+    }
+
+    .footer-vorteile-item ul li {
+        font-size: 35px;
+    }
+
+    .footer-bottom-wrapper {
+        padding: 89px 0 0px 0;
+    }
+
+    .footer-fast-item {
+        border-radius: 0px;
+        clip-path: polygon(0.913% 3.618%, 0.913% 3.618%, 1.006% 2.978%, 1.271% 2.379%, 1.692% 1.829%, 2.252% 1.338%, 2.934% 0.915%, 3.72% 0.568%, 4.593% 0.306%, 5.537% 0.139%, 6.533% 0.076%, 7.565% 0.126%, 48.579% 4.393%, 48.579% 4.393%, 48.766% 4.41%, 48.952% 4.424%, 49.139% 4.434%, 49.327% 4.44%, 49.514% 4.442%, 49.702% 4.44%, 49.89% 4.434%, 50.077% 4.425%, 50.263% 4.412%, 50.45% 4.395%, 92.453% 0.11%, 92.453% 0.11%, 93.483% 0.063%, 94.477% 0.128%, 95.418% 0.296%, 96.289% 0.558%, 97.073% 0.905%, 97.753% 1.328%, 98.311% 1.819%, 98.73% 2.368%, 98.995% 2.966%, 99.087% 3.604%, 99.087% 95.255%, 99.087% 95.255%, 99.012% 95.829%, 98.796% 96.374%, 98.45% 96.882%, 97.985% 97.346%, 97.415% 97.759%, 96.75% 98.113%, 96.002% 98.401%, 95.183% 98.616%, 94.305% 98.75%, 93.379% 98.796%, 50.332% 98.796%, 6.621% 98.796%, 6.621% 98.796%, 5.695% 98.75%, 4.817% 98.616%, 3.998% 98.401%, 3.25% 98.113%, 2.585% 97.759%, 2.015% 97.346%, 1.55% 96.882%, 1.204% 96.374%, 0.988% 95.829%, 0.913% 95.255%, 0.913% 3.618%);
+    }
+}
+
+@media screen and (max-width:550px) {
+    .social-service-section {
+        margin-top: -57px;
+    }
+
+    .footer-bottom-wrapper {
+
+        margin-top: -96px;
+        border-radius: 0px;
+        padding-bottom: 20px;
     }
 }
 
@@ -413,6 +477,7 @@
     .footer-fast-item {
         padding: 37px;
         padding-top: 88px;
+        margin-top: 33px;
     }
 
     .footer-vorteile-item ul li {
@@ -425,8 +490,8 @@
     }
 
     .service-card-wrapper {
-        border-radius: 42px;
-        padding: 24px;
+        /* border-radius: 42px; */
+        padding: 106px 30px;
     }
 
 

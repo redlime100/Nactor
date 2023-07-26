@@ -871,3 +871,7 @@ h2.service-name3 {
   justify-content: center;
   align-items: center;
 }
+
+.service-mobile-cta {
+  display: none;
+}

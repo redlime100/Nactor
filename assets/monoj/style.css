@@ -25,7 +25,7 @@
     align-items: center;
     background: #000;
     padding: 50px;
-    border-radius: 100px;
+    /* border-radius: 100px; */
     -webkit-clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
     padding-top: 140px;
     clip-path: polygon(0.321% 9.564%, 0.321% 9.564%, 0.416% 7.993%, 0.691% 6.513%, 1.129% 5.147%, 1.714% 3.915%, 2.429% 2.838%, 3.256% 1.938%, 4.181% 1.237%, 5.185% 0.754%, 6.253% 0.513%, 7.367% 0.533%, 49.598% 6.449%, 49.598% 6.449%, 49.725% 6.465%, 49.852% 6.477%, 49.979% 6.486%, 50.106% 6.491%, 50.233% 6.493%, 50.36% 6.491%, 50.487% 6.486%, 50.614% 6.477%, 50.741% 6.464%, 50.868% 6.448%, 92.627% 0.543%, 92.627% 0.543%, 93.742% 0.522%, 94.811% 0.762%, 95.816% 1.244%, 96.741% 1.945%, 97.569% 2.845%, 98.284% 3.922%, 98.87% 5.154%, 99.308% 6.521%, 99.584% 8.001%, 99.679% 9.573%, 99.679% 81.548%, 99.679% 81.548%, 99.611% 82.876%, 99.411% 84.149%, 99.09% 85.351%, 98.655% 86.467%, 98.117% 87.483%, 97.485% 88.382%, 96.767% 89.152%, 95.973% 89.776%, 95.111% 90.239%, 94.192% 90.527%, 51.021% 99.446%, 51.021% 99.446%, 50.837% 99.48%, 50.652% 99.507%, 50.467% 99.526%, 50.282% 99.537%, 50.096% 99.541%, 49.911% 99.537%, 49.725% 99.526%, 49.54% 99.507%, 49.355% 99.481%, 49.171% 99.446%, 5.812% 90.523%, 5.812% 90.523%, 4.892% 90.236%, 4.03% 89.773%, 3.235% 89.149%, 2.517% 88.38%, 1.884% 87.48%, 1.346% 86.464%, 0.911% 85.348%, 0.589% 84.146%, 0.389% 82.872%, 0.321% 81.543%, 0.321% 9.564%);
@@ -88,7 +88,7 @@
 .footer-vorteile-item ul li {
     font-size: 25px;
     padding: 10px 0;
-    line-height: 35px;
+    line-height: 116%;
     background: radial-gradient(168.66% 190.05% at 46.74% 10.21%, #E3E3E3 18.81%, rgba(255, 255, 255, 0.21) 59.06%, rgba(0, 0, 0, 0.00) 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -267,7 +267,7 @@
 }
 
 button.revolution-btn {
-    display: none;
+    /* display: none; */
 }
 
 /* Footer  Responsive  */
@@ -293,11 +293,6 @@ button.revolution-btn {
         padding: 10px 0;
         font-weight: 700;
         border-bottom: 2px solid #ddd;
-        background-clip: text;
-        background: radial-gradient(9014.37% 180.68% at 92.84% 38.46%, #2C2A2A 0%, #4F4E50 33.77%, #C621EF 52.05%, #3000EF 68.45%, #000 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 
     .vorteile-list::before {
@@ -366,12 +361,14 @@ button.revolution-btn {
         background: none;
         color: #fff;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 50px;
+        text-align: center;
     }
 
     .accordion-button {
-        font-size: 25px;
+        font-size: 50px;
         padding: 10px 20px;
+        font-weight: 600;
     }
 
     .accordion-button-2 {
@@ -505,7 +502,7 @@ button.revolution-btn {
     background: #151515;
     padding: 30px;
     border-radius: 20px;
-    height: 416px;
+    height: 384px;
     font-size: clamp(18px, 1.4vw, 21px);
 }
 
@@ -537,4 +534,25 @@ button.revolution-btn {
 
 .service-item-card {
     position: relative;
+}
+
+.accordion-button::after {
+    margin-left: 9px;
+    background-color: #ddd;
+    border-radius: 50%;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.footer-link {
+    font-size: 24px;
+    padding: 5px 0;
+    width: 100%;
+    background: radial-gradient(469.05% 92.64% at 46.45% 50.00%, #F7F7F7 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
