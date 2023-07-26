@@ -18,7 +18,6 @@ $(".faq__que").click(function () {
 
 // =====================logo slider ============
 var swiper = new Swiper(".logoSlider", {
-  slidesPerView: 5,
   spaceBetween: 30,
   loop: true,
   autoplay: {
@@ -44,14 +43,13 @@ var swiper = new Swiper(".logoSlider", {
       spaceBetween: 30,
     },
     1200: {
-      slidesPerView: 5,
+      slidesPerView: 4,
       spaceBetween: 30,
     },
   },
 });
 
 var swiper = new Swiper(".logoSlider2", {
-  slidesPerView: 3,
   spaceBetween: 30,
   loop: true,
   autoplay: {
@@ -141,13 +139,13 @@ var swiper = new Swiper(".companySlider", {
   // initialSlide: "5",
   // centeredSlides: true,
   loop: true,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
   breakpoints: {
     0: {
-      slidesPerView: 1.5,
+      slidesPerView: 1.2,
       spaceBetween: 10,
     },
     768: {
@@ -174,13 +172,13 @@ var swiper = new Swiper(".companySlider-2", {
   // initialSlide: "4",
   // centeredSlides: true,
   loop: true,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
   breakpoints: {
     0: {
-      slidesPerView: 1.3,
+      slidesPerView: 1.1,
       spaceBetween: 10,
     },
     768: {
@@ -213,3 +211,18 @@ $("#closeMenu").click(function(){
   $(".side-menu").removeClass("active");
 });
 
+
+// =========================preloader===============
+function loader() {
+  $(window).on('load', function () {
+    $('#preloader').addClass('loaded');
+    $("#loading").fadeOut(500);
+
+    // if ($('#ctn-preloader').hasClass('loaded')) {
+    //   $('#preloader').delay(900).queue(function () {
+    //     $(this).remove();
+    //   });
+    // }
+  });
+}
+loader();

@@ -363,6 +363,8 @@ button.revolution-btn {
         font-weight: 600;
         font-size: 50px;
         text-align: center;
+        display: flex;
+        justify-content: center;
     }
 
     .accordion-button {
@@ -399,7 +401,7 @@ button.revolution-btn {
     }
 
     .social-media-wrapper a img {
-        width: 30px;
+        width: 60px;
     }
 
     .social-media-wrapper {
@@ -410,6 +412,7 @@ button.revolution-btn {
 
     .social-media-wrapper .follow-title {
         font-size: 22px;
+        display: none;
     }
 
     .language-change-items {
@@ -555,4 +558,50 @@ button.revolution-btn {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.footer-bottom-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/footer/footer-angle.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    z-index: 0;
+}
+
+.footer-second-item {
+    z-index: 1;
+    position: relative;
+}
+
+.mobile-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mobile-btn .language-link {
+    border-radius: 50px;
+    border: 2px solid #9E9E9E;
+    padding: 9px 30px;
+}
+
+.mobile-btn {
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mobile-btn .language-link {
+    border-radius: 50px;
+    border: 2px solid #9E9E9E;
+    padding: 9px 30px;
 }
