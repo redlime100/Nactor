@@ -144,9 +144,9 @@
         margin-top: -24px;
     }
 
-    .border-shpa {
+    /* .border-shpa {
         display: none;
-    }
+    } */
 
     .center-image-section {
         width: 80%;
@@ -164,6 +164,8 @@
         padding: 166px 0 0px 0;
 
     }
+
+
 }
 
 @media screen and (max-width:1020px) {
@@ -172,11 +174,22 @@
         margin-right: 0;
     }
 
+    .center-home-img img {
+        width: 23%;
+    }
+
+    .border-shpa img {
+        width: 50%;
+        margin-right: -9%;
+        margin-top: -9%;
+    }
+
 }
 
 
 
 @media screen and (max-width: 992px) {
+
     .social-service-section {
         margin-top: -205px;
     }
@@ -254,7 +267,24 @@
     }
 }
 
+@media screen and (max-width:830px) {
+    .border-shpa img {
+        width: 65%;
+        margin-right: -12%;
+        margin-top: -7%;
+    }
+
+    .center-home-img img {
+        width: 27%;
+    }
+}
+
 @media screen and (max-width:768px) {
+    .blur-img {
+        display: none;
+    }
+
+
     .footer {
         margin-top: -197px;
     }
@@ -403,9 +433,41 @@
         border-radius: 0px;
         clip-path: polygon(0.913% 3.618%, 0.913% 3.618%, 1.006% 2.978%, 1.271% 2.379%, 1.692% 1.829%, 2.252% 1.338%, 2.934% 0.915%, 3.72% 0.568%, 4.593% 0.306%, 5.537% 0.139%, 6.533% 0.076%, 7.565% 0.126%, 48.579% 4.393%, 48.579% 4.393%, 48.766% 4.41%, 48.952% 4.424%, 49.139% 4.434%, 49.327% 4.44%, 49.514% 4.442%, 49.702% 4.44%, 49.89% 4.434%, 50.077% 4.425%, 50.263% 4.412%, 50.45% 4.395%, 92.453% 0.11%, 92.453% 0.11%, 93.483% 0.063%, 94.477% 0.128%, 95.418% 0.296%, 96.289% 0.558%, 97.073% 0.905%, 97.753% 1.328%, 98.311% 1.819%, 98.73% 2.368%, 98.995% 2.966%, 99.087% 3.604%, 99.087% 95.255%, 99.087% 95.255%, 99.012% 95.829%, 98.796% 96.374%, 98.45% 96.882%, 97.985% 97.346%, 97.415% 97.759%, 96.75% 98.113%, 96.002% 98.401%, 95.183% 98.616%, 94.305% 98.75%, 93.379% 98.796%, 50.332% 98.796%, 6.621% 98.796%, 6.621% 98.796%, 5.695% 98.75%, 4.817% 98.616%, 3.998% 98.401%, 3.25% 98.113%, 2.585% 97.759%, 2.015% 97.346%, 1.55% 96.882%, 1.204% 96.374%, 0.988% 95.829%, 0.913% 95.255%, 0.913% 3.618%);
     }
+
+
+}
+
+@media screen and (max-width:650px) {
+    .border-shpa img {
+        width: 65%;
+        margin-right: -12%;
+        margin-top: -17%;
+    }
 }
 
 @media screen and (max-width:550px) {
+    .center-image-section {
+        width: 100%;
+    }
+
+    .border-shpa img {
+        width: 100%;
+        margin-right: 0;
+        margin-top: -76%;
+    }
+
+    .center-home-img img {
+        width: 56%;
+    }
+
+    .desktop-shape {
+        display: none;
+    }
+
+    .mobile-shape {
+        display: block;
+    }
+
     .social-service-section {
         margin-top: -57px;
     }
@@ -419,6 +481,13 @@
 }
 
 @media screen and (max-width:450px) {
+
+    .border-shpa img {
+        width: 100%;
+        margin-right: 0;
+        margin-top: -86%;
+    }
+
     .company-service-section {
         padding: 86px 0 97px 0;
     }

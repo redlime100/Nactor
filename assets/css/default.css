@@ -146,3 +146,14 @@ table.table {
   color: var(--white-color);
   transition: 0.3s;
 }
+
+a.cta-alt-btn {
+  color: #fff;
+  border-color: #161616;
+  transition: .3s;
+}
+
+a.cta-alt-btn:hover {
+  background: var(--main-color);
+  border-color: var(--main-color);
+}
