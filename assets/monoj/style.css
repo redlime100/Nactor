@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     background: #000;
-    padding: 50px;
+    padding: 90px;
     /* border-radius: 100px; */
     -webkit-clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
     padding-top: 140px;
@@ -87,7 +87,7 @@
 }
 
 .footer-vorteile-item ul li {
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px 0;
     line-height: 116%;
     background: radial-gradient(168.66% 190.05% at 46.74% 10.21%, #E3E3E3 18.81%, rgba(255, 255, 255, 0.21) 59.06%, rgba(0, 0, 0, 0.00) 100%);
@@ -132,7 +132,7 @@
 
 /* bottom */
 .footer-bottom-wrapper {
-    padding: 232px 0 0px 0;
+    padding: 232px 0 83px 0;
     position: relative;
     top: -107px;
     background: #000;
@@ -246,7 +246,7 @@
 }
 
 .footer-logo-img img {
-    width: 60%;
+    width: 100%;
     text-align: center;
     margin: auto;
 }
@@ -648,4 +648,8 @@ button.revolution-btn {
     background: rgb(17, 17, 17);
     background: linear-gradient(272deg, rgba(17, 17, 17, 1) 52%, rgb(0 0 0 / 29%) 100%);
     box-shadow: -20px 4px 200px 20px rgb(0 0 0 / 85%);
+}
+
+.footer-content-box {
+    filter: drop-shadow(1.75em 1.75em 36px #000);
 }
