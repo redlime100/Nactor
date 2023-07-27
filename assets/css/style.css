@@ -3,11 +3,15 @@
   text-align: center;
 }
 
+.banner-top-point {
+  width: 35px;
+}
+
 .banner-content h1 {
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  font-family: Inter;
-  font-size: 128px;
+  font-size: 104px;
   font-style: normal;
+  line-height: 100%;
   font-weight: 700;
   background: radial-gradient(469.05% 92.64% at 46.45% 50%,
       #f7f7f7 0%,
@@ -15,6 +19,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: -8.96px;
 }
 
 .banner-content h1 span {
@@ -28,9 +33,9 @@
 
 .banner-content p {
   color: #ab0026;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .banner-content h4 {
@@ -40,17 +45,18 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 36px;
+  font-size: 27px;
+  font-weight: 700;
 }
 
 .banner-button {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 .banner {
-  padding-top: 100px;
+  padding-top: 36px;
   position: relative;
-  padding-bottom: 400px;
+  padding-bottom: 353px;
 }
 
 .banner-img {
@@ -87,12 +93,12 @@
 
 .slider-social {
   position: relative;
-  height: 100px;
+  height: 55px;
   display: flex;
   align-items: center;
   transform: rotate(6deg);
   overflow: hidden;
-  margin-top: 70px;
+  margin-top: 78px;
   padding-left: 47px;
 }
 
@@ -120,7 +126,7 @@
   height: 1px;
   background: #0b0a0ad4;
   border-radius: 100%;
-  z-index: 1111;
+  z-index: 1;
   box-shadow: 1px 1px 50px 100px #000000c9;
   right: 0;
 }
@@ -156,7 +162,7 @@
 }
 
 .blog-post-top {
-  margin-top: 179px;
+  margin-top: 145px;
   margin-bottom: 50px;
   position: absolute;
   left: 0;
@@ -164,6 +170,7 @@
   top: 0;
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 
 .blog-post-slider {
@@ -179,11 +186,12 @@
   -webkit-text-fill-color: transparent;
   font-weight: 700;
   font-size: clamp(30px, 3.4vw, 64px);
+  line-height: 89%;
 }
 
 .blog-post-top-title h3 {
   color: #ab0026;
-  font-size: clamp(25px, 2.4vw, 40px);
+  font-size: clamp(25px, 2.4vw, 33px);
   font-weight: 700;
 }
 
@@ -200,7 +208,8 @@
 
 .slider-nav::after {
   font-size: 20px;
-  color: var(--white-color);
+  color: #221d1d;
+  font-weight: bold;
 }
 
 .blog-post-rac {
@@ -208,6 +217,7 @@
   /* top: 121px; */
   /* left: 38%; */
   /* width: 400px; */
+  width: 25%;
   /* z-index: 0; */
 }
 
@@ -252,7 +262,7 @@
 
 /* ===================Tabs area =============== */
 .tab-area-wrapper {
-  padding: 161px 0;
+  padding: 103px 0;
   padding-bottom: 320px;
   background: #ddd;
   margin-top: -100px;
@@ -271,6 +281,7 @@
   -webkit-text-fill-color: transparent;
   font-weight: 700;
   font-size: clamp(40px, 4.4vw, 96px);
+  line-height: 80%;
 }
 
 .tab-title-area h3 {
@@ -279,7 +290,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: clamp(20px, 3.4vw, 48px);
+  font-size: clamp(20px, 3.4vw, 40px);
 }
 
 .tab-area {
@@ -295,11 +306,9 @@
   background: #232323;
   box-shadow: 15px 20px 40px 2px #000;
   border: none;
-  padding: 10px;
+  padding: 5px;
   flex-wrap: initial;
   overflow-x: auto;
-
-
 }
 
 .nav-tab-ul::-webkit-scrollbar {
@@ -309,13 +318,12 @@
 
 .nav-tabs-btn {
   background: none;
-  padding: 8px 34px;
+  padding: 5px 25px;
   color: var(--white-color);
   border: none;
-  font-size: 24px;
   font-weight: 700;
   border-radius: 50px;
-  font-size: clamp(14px, 3.4vw, 24px);
+  font-size: 15px;
 }
 
 .nav-tabs-btn.active {
@@ -323,7 +331,7 @@
 }
 
 .tab-item {
-  margin-top: 52px;
+  margin-top: 24px;
   background: #000;
   border-radius: 15px;
   padding: 107px 100px;
@@ -337,8 +345,9 @@
 }
 
 .tab-content h3 {
-  font-size: clamp(30px, 3.4vw, 59px);
-  font-weight: 700;
+  font-size: clamp(30px, 3.4vw, 45px);
+  font-weight: 800;
+  line-height: 87%;
 }
 
 .tab-content-title {
@@ -356,17 +365,18 @@
 }
 
 .tab-paragraph {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   background: radial-gradient(165.51% 94.61% at 48.89% 39.96%, #FFF 0%, #000 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 129%;
+  padding-right: 142px;
 }
 
 .tab-paragraph p {
-  margin: 10px 0;
+  margin: 16px 0;
 }
 
 .color-text-tab-1 {
@@ -782,7 +792,7 @@ h2.service-name3 {
 }
 
 .blog-slider .swiper-wrapper .swiper-slide {
-  transform: scale(0.8);
+  transform: scale(0.9);
   transition: .3s;
 }
 
@@ -911,4 +921,8 @@ h2.service-name3 {
 .loading-wrapper img {
   width: 100%;
   height: 100%;
+}
+
+.slider-item .custom-btn-alt {
+  margin-left: 50px;
 }

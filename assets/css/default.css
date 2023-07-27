@@ -117,9 +117,8 @@ table.table {
 }
 
 .custom-btn {
-  padding: 8px 30px;
+  padding: 4px 18px;
   font-size: 16px;
-  text-transform: uppercase;
   color: var(--white-color);
   transition: 0.3s;
   font-weight: 700;
