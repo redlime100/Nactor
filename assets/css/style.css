@@ -380,7 +380,8 @@
 }
 
 .color-text-tab-1 {
-  background: radial-gradient(206.16% 79.04% at 24.28% 81.47%, #C322EC 0%, #2E01E3 56.41%);
+  background: rgb(41, 1, 154);
+  background: linear-gradient(90deg, rgba(41, 1, 154, 1) 0%, rgba(162, 29, 171, 1) 79%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -925,4 +926,15 @@ h2.service-name3 {
 
 .slider-item .custom-btn-alt {
   margin-left: 50px;
+}
+
+.tab-content::before {
+  content: "";
+  position: absolute;
+  background: #ffffff21;
+  transform: rotate(45deg);
+  box-shadow: 0px 0px 220px 20px #ffffff;
+  height: 449px;
+  top: 0;
+  right: 55%;
 }
