@@ -46,27 +46,28 @@
 }
 
 .footer-title-content .title-gradient {
-    background: linear-gradient(250deg, #441DB9 20.73%, #FFF 100%);
     background-clip: text;
+    background: rgb(252, 252, 252);
+    background: linear-gradient(79deg, rgba(252, 252, 252, 1) 37%, rgba(68, 29, 185, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .footer-title-content h3 {
-    font-size: 40px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 900;
 }
 
 .footer-title-content h1 {
-    font-size: 80px;
-    line-height: 90px;
+    font-size: 128px;
+    line-height: 150px;
     font-style: normal;
     font-weight: 900;
 }
 
 .footer-title-content p {
-    font-size: 30px;
+    font-size: 32px;
     font-family: Inter;
     font-weight: 700;
     color: #fff;
@@ -74,10 +75,10 @@
 }
 
 .footer-vorteile-item h1 {
-    font-size: 60px;
+    font-size: 64px;
     font-weight: 900;
     line-height: 70px;
-    background: linear-gradient(176deg, #451EB9 0%, #B22AB1 52.92%, #D20E3A 86.64%);
+    background: linear-gradient(88deg, #451EB9 0%, #B22AB1 52.92%, #D20E3A 86.64%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -116,6 +117,7 @@
     border-radius: 50px;
     color: #fff;
     font-size: 18px;
+    font-weight: 700;
 }
 
 .footer-title-btn-item .footer-btn-1 {
@@ -435,7 +437,7 @@ button.revolution-btn {
 
 /* ============ Company Section Start ================= */
 .company-service-section {
-    padding: 200px 0 138px 0;
+    padding: 130px 0 138px 0;
     position: relative;
     top: -133px;
     background: #000;
@@ -444,18 +446,17 @@ button.revolution-btn {
     clip-path: polygon(0% 8.532%, 0% 8.532%, 0.077% 7.07%, 0.298% 5.693%, 0.65% 4.419%, 1.121% 3.27%, 1.696% 2.264%, 2.363% 1.421%, 3.108% 0.761%, 3.918% 0.305%, 4.78% 0.07%, 5.68% 0.078%, 50.26% 6.689%, 94.315% 0.088%, 94.315% 0.088%, 95.216% 0.079%, 96.078% 0.312%, 96.889% 0.768%, 97.634% 1.427%, 98.302% 2.27%, 98.878% 3.276%, 99.349% 4.426%, 99.702% 5.7%, 99.923% 7.078%, 100% 8.541%, 100% 100%, 0% 100%, 0% 8.532%);
 }
 
-.company-slider-wrapper .company-title-section {
-    background: linear-gradient(249deg, #FFF 24.30%, #000 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+.company-slider-wrapper .company-title-section {}
 
 .company-slider-wrapper .company-title-section span {
     font-size: clamp(20px, 3.4vw, 64px);
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
+    background: linear-gradient(183deg, #FFF 24.30%, #000 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .company-slider-wrapper .company-title-section h1 {
@@ -604,4 +605,47 @@ button.revolution-btn {
     border-radius: 50px;
     border: 2px solid #9E9E9E;
     padding: 9px 30px;
+}
+
+.slider-out-width {
+    margin-right: -20%;
+}
+
+.company-slider-nav {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: 11;
+}
+
+.swiper-company-wrapper-con {
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper-company-wrapper-con::before {
+    content: "";
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgb(17, 17, 17);
+    background: linear-gradient(89deg, rgba(17, 17, 17, 1) 52%, rgb(0 0 0 / 29%) 100%);
+    box-shadow: 20px -1px 100px 0px rgb(0 0 0 / 29%);
+}
+
+
+.swiper-company-wrapper-con::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgb(17, 17, 17);
+    background: linear-gradient(272deg, rgba(17, 17, 17, 1) 52%, rgb(0 0 0 / 29%) 100%);
+    box-shadow: -20px 4px 200px 20px rgb(0 0 0 / 85%);
 }

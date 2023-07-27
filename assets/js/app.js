@@ -134,72 +134,96 @@ var swiper = new Swiper(".blogSliderMobile", {
 
 });
 // ============ Company =============
-var swiper = new Swiper(".companySlider", {
-  spaceBetween: 30,
-  // initialSlide: "5",
-  // centeredSlides: true,
-  loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1.2,
-      spaceBetween: 10,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
-    1024: {
-      slidesPerView:2.5,
-      spaceBetween: 30,
-    },
+// var swiper = new Swiper(".companySlider", {
+//   spaceBetween: 30,
+//   // initialSlide: "5",
+//   // centeredSlides: true,
+//   loop: true,
+//   autoplay: {
+//     delay: 3000,
+//     disableOnInteraction: false,
+//   },
+//   breakpoints: {
+//     0: {
+//       slidesPerView: 1.2,
+//       spaceBetween: 10,
+//     },
+//     768: {
+//       slidesPerView: 2,
+//       spaceBetween: 30,
+//     },
+//     1024: {
+//       slidesPerView:2.5,
+//       spaceBetween: 30,
+//     },
 
-    1250: {
-      slidesPerView: 3.9,
-      spaceBetween: 30,
-    },
-  },
-  // navigator: {
-  //   nextEl: ".swiper-button-next",
-  //   prevEl: ".swiper-button-prev",
-  // },
-});
-var swiper = new Swiper(".companySlider-2", {
-  spaceBetween: 30,
-  // initialSlide: "4",
-  // centeredSlides: true,
-  loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1.1,
-      spaceBetween: 10,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
-    1024: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
-    1250: {
-      slidesPerView: 3.5,
-      spaceBetween: 30,
-    },
-  },
-  // navigator: {
-  //   nextEl: ".swiper-button-next",
-  //   prevEl: ".swiper-button-prev",
-  // },
-});
+//     1250: {
+//       slidesPerView: 3.9,
+//       spaceBetween: 30,
+//     },
+//   },
+// });
+// var swiper = new Swiper(".companySlider-2", {
+//   spaceBetween: 30,
+//   loop: true,
+//   autoplay: {
+//     delay: 3000,
+//     disableOnInteraction: false,
+//   },
+//   breakpoints: {
+//     0: {
+//       slidesPerView: 1.1,
+//       spaceBetween: 10,
+//     },
+//     768: {
+//       slidesPerView: 2,
+//       spaceBetween: 30,
+//     },
+//     1024: {
+//       slidesPerView: 2,
+//       spaceBetween: 30,
+//     },
+//     1250: {
+//       slidesPerView: 3.5,
+//       spaceBetween: 30,
+//     },
+//   },
+// });
 
+
+$(document).ready(function() {
+  var swiper = new Swiper(".companySlider", {
+    spaceBetween: 30,
+    loop: true,
+    // autoplay: {
+    //   delay: 3000,
+    //   disableOnInteraction: false,
+    // },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1.2,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView:2.5,
+        spaceBetween: 30,
+      },
+  
+      1250: {
+        slidesPerView: 3.9,
+        spaceBetween: 30,
+      },
+    },
+  });
+});
 
 
 // =====================mobile toggle =========

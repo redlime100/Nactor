@@ -102,19 +102,24 @@ li.nav-item:hover .mega-menu {
 }
 
 .menu-title h3 {
-  font-size: 30px;
+  font-size: 48px;
   font-weight: 700;
   color: #5a5a5a;
-  margin-bottom: 7px;
+  /* margin-bottom: 7px; */
+  line-height: 104px;
+  /* 216.667% */
+  letter-spacing: -2.64px;
 }
 
 a.mega-link {
   color: #d7d7d7;
   font-size: 36px;
   font-weight: 700;
-  line-height: 150%;
   transition: 0.3s;
   width: 100%;
+  line-height: 45.5px;
+  /* 126.389% */
+  letter-spacing: -1.98px;
 }
 
 a.mega-link:hover {

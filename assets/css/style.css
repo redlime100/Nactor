@@ -53,9 +53,9 @@
 }
 
 .banner {
-  padding-top: 100px;
+  padding-top: 50px;
   position: relative;
-  padding-bottom: 400px;
+  padding-bottom: 327px;
 }
 
 .banner-img {
@@ -211,7 +211,7 @@
 
 .slider-nav::after {
   font-size: 20px;
-  color: var(--white-color);
+  color: #000000;
 }
 
 .blog-post-rac {
@@ -276,16 +276,19 @@
 }
 
 .tab-title-area h2 {
-  background: radial-gradient(5251.66% 200.39% at 78.83% -22.38%, #000 5.49%, #504E4E 50.35%, #000 72.27%);
+  background: radial-gradient(34.66% 771.39% at 78.83% -22.38%, #000 5.49%, #504E4E 50.35%, #000 72.27%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
   font-size: clamp(40px, 4.4vw, 96px);
+  line-height: 85.5px;
+  /* 178.125% */
+  letter-spacing: -2.64px;
 }
 
 .tab-title-area h3 {
-  background: radial-gradient(5251.66% 200.39% at 78.83% -22.38%, #000 5.49%, #504E4E 50.35%, #000 72.27%);
+  background: radial-gradient(51.66% 200.39% at 78.83% -22.38%, #000 5.49%, #504E4E 50.35%, #000 72.27%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -512,7 +515,7 @@
   position: relative;
   text-align: center;
   z-index: 1;
-  margin-bottom: -44px;
+  margin-bottom: -98px;
 }
 
 .digital-content {
@@ -526,7 +529,7 @@
   font-size: 150px;
   font-style: normal;
   font-weight: 700;
-  background: radial-gradient(136.82% 311.02% at 53.75% 17.71%, #FFF 3.65%, #FEB579 27.60%, rgba(47, 47, 47, 0.97) 79.17%);
+  background: radial-gradient(24.82% 311.02% at 53.75% 17.71%, #FFF 3.65%, #FEB579 27.60%, rgba(47, 47, 47, 0.97) 79.17%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -536,7 +539,7 @@
 }
 
 h2.degital-title-top {
-  background: radial-gradient(3476.32% 229.33% at 50.00% 69.27%, #FFF 0%, #000 100%);
+  background: radial-gradient(18.32% 229.33% at 50.00% 69.27%, #FFF 0%, #000 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -559,9 +562,9 @@ h2.degital-title-top {
 
 
 .service {
-  padding-top: 310px;
+  padding-top: 280px;
   padding-bottom: 123px;
-  background: #bbb;
+  background: #dfdfdf;
   -webkit-clip-path: polygon(0% 9.729%, 0% 9.729%, 0.007% 9.422%, 0.028% 9.116%, 0.062% 8.813%, 0.11% 8.512%, 0.171% 8.215%, 0.246% 7.922%, 0.334% 7.633%, 0.434% 7.349%, 0.548% 7.072%, 0.674% 6.8%, 4.036% 0%, 10.573% 6.907%, 25.169% 9.68%, 50.182% 13.579%, 75.169% 9.68%, 90.104% 6.907%, 95.234% 0%, 99.124% 6.663%, 99.124% 6.663%, 99.288% 6.962%, 99.435% 7.269%, 99.565% 7.586%, 99.679% 7.91%, 99.776% 8.241%, 99.856% 8.578%, 99.919% 8.919%, 99.964% 9.265%, 99.991% 9.615%, 100% 9.967%, 100% 100%, 0% 100%, 0% 9.729%);
   position: relative;
   display: flex;
@@ -580,17 +583,13 @@ h2.degital-title-top {
 
 .service::before {
   content: "";
-  /* left: 0; */
-  /* right: 0; */
-  top: 10%;
-  bottom: 4%;
+  left: 0;
+  top: 0;
+  bottom: 0;
   position: absolute;
-  background: #fffc;
   z-index: -1;
-  box-shadow: 1px 1px 500px 100px #fff;
-  width: 0;
+  box-shadow: 20px 0px 700px 100px #070707;
   transform: rotate(1deg);
-  border-radius: 50%;
 }
 
 /* ====================service ================ */
@@ -757,7 +756,7 @@ h2.service-name3 {
 }
 
 .second-service-col {
-  padding-bottom: 100px;
+  padding-bottom: 71px;
 }
 
 .last-service-col {
@@ -831,7 +830,7 @@ h2.service-name3 {
 }
 
 .center-home-img img {
-  width: 35%;
+  width: 28%;
 }
 
 .blur-img {
@@ -870,8 +869,8 @@ h2.service-name3 {
 
 .border-shpa img {
   width: 100%;
-  margin-top: 14%;
-  margin-right: -22%;
+  margin-top: 11%;
+  margin-right: -20%;
 }
 
 .desital-footer-img img {
