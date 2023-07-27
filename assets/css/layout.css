@@ -63,8 +63,9 @@ a.language-link {
   visibility: hidden;
   transition: 0.3s;
   z-index: 99;
-  height: 80vh;
+  height: 100vh;
   background: #000000a6;
+  overflow-y: auto;
 }
 
 li.nav-item:hover .mega-menu {
