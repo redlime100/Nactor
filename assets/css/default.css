@@ -118,13 +118,14 @@ table.table {
 
 .custom-btn {
   padding: 4px 18px;
-  font-size: 16px;
+  font-size: 20px;
   color: var(--white-color);
   transition: 0.3s;
   font-weight: 700;
   background: var(--main-color);
   border-radius: 45px;
   border: 2px solid var(--main-color);
+  letter-spacing: -1.1px;
 }
 
 .custom-btn:hover {
