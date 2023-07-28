@@ -105,8 +105,8 @@ li.nav-item:hover .mega-menu {
   font-size: 48px;
   font-weight: 700;
   color: #5a5a5a;
-  /* margin-bottom: 7px; */
-  line-height: 104px;
+  margin-bottom: 7px;
+  /* line-height: 104px; */
   /* 216.667% */
   letter-spacing: -2.64px;
 }

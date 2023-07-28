@@ -117,7 +117,7 @@ table.table {
 }
 
 .custom-btn {
-  padding: 4px 18px;
+  padding: 8px 30px;
   font-size: 20px;
   color: var(--white-color);
   transition: 0.3s;
@@ -148,8 +148,8 @@ table.table {
 }
 
 a.cta-alt-btn {
-  color: #fff;
-  border-color: #161616;
+  color: #b3aaaa;
+  border-color: #363636;
   transition: .3s;
 }
 

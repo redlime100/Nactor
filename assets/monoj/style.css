@@ -87,8 +87,8 @@
 }
 
 .footer-vorteile-item ul li {
-    font-size: 30px;
-    padding: 10px 0;
+    font-size: 26px;
+    padding: 10px 5px;
     line-height: 116%;
     background: radial-gradient(168.66% 190.05% at 46.74% 10.21%, #E3E3E3 18.81%, rgba(255, 255, 255, 0.21) 59.06%, rgba(0, 0, 0, 0.00) 100%);
     background-clip: text;
@@ -169,7 +169,7 @@
 
 .footer-all-service-item .service-item-card ul {
     margin-top: 25px;
-    background: linear-gradient(249deg, #fff 50.30%, #181818 100%);
+    background: linear-gradient(232deg, #fff 50.30%, #181818 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -184,7 +184,7 @@
 }
 
 .social-media-wrapper .follow-title {
-    font-size: 30px;
+    font-size: 40px;
     color: #FFF;
     font-weight: 700;
     text-align: center;
@@ -208,26 +208,33 @@
 }
 
 .footer-glossar .glossar-card-item h2 {
-    font-size: 60px;
+    font-size: 80px;
     line-height: 70px;
     font-weight: 700;
     position: relative;
     color: #fff;
+    background: radial-gradient(469.05% 92.64% at 46.45% 50.00%, #F7F7F7 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
 }
 
 .footer-glossar .glossar-card-item p {
     font-size: 16px;
     color: #fff;
     text-align: justify;
+    font-weight: 700;
 }
 
 .glossar-card-btn {
-    padding: 5px 30px;
+    padding: 10px 33px;
     border-radius: 50px;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     border: 1px solid #fff;
     background: none;
+    font-weight: 700;
 }
 
 .language-change-items a {
@@ -453,7 +460,7 @@ button.revolution-btn {
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    background: linear-gradient(183deg, #FFF 24.30%, #000 100%);
+    background: linear-gradient(182deg, #FFF 24.30%, #000 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -512,7 +519,7 @@ button.revolution-btn {
 
 .company-overly {
     position: absolute;
-    bottom: 0;
+    bottom: -5%;
     left: 0;
     right: 0;
     z-index: 11;
@@ -552,13 +559,14 @@ button.revolution-btn {
 }
 
 .footer-link {
-    font-size: 24px;
+    font-size: 38px;
     padding: 5px 0;
     width: 100%;
-    background: radial-gradient(469.05% 92.64% at 46.45% 50.00%, #F7F7F7 0%, rgba(255, 255, 255, 0.00) 100%);
+    /* background: radial-gradient(69.05% 92.64% at 46.45% 50.00%, #F7F7F7 0%, rgba(255, 255, 255, 0.00) 100%); */
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    font-weight: 700;
 }
 
 .footer-bottom-wrapper::after {
@@ -632,7 +640,7 @@ button.revolution-btn {
     bottom: 0;
     z-index: 2;
     background: rgb(17, 17, 17);
-    background: linear-gradient(89deg, rgba(17, 17, 17, 1) 52%, rgb(0 0 0 / 29%) 100%);
+    background: linear-gradient(89deg, rgb(0 0 0) 52%, rgb(0 0 0 / 29%) 100%);
     box-shadow: 20px -1px 100px 0px rgb(0 0 0 / 29%);
 }
 
@@ -646,10 +654,10 @@ button.revolution-btn {
     bottom: 0;
     z-index: 2;
     background: rgb(17, 17, 17);
-    background: linear-gradient(272deg, rgba(17, 17, 17, 1) 52%, rgb(0 0 0 / 29%) 100%);
+    background: linear-gradient(272deg, rgb(0 0 0) 52%, rgb(0 0 0 / 29%) 100%);
     box-shadow: -20px 4px 200px 20px rgb(0 0 0 / 85%);
 }
 
 .footer-content-box {
-    filter: drop-shadow(1.75em 1.75em 36px #000);
+    filter: drop-shadow(2.75em 2.75em 58px #000);
 }

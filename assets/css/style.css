@@ -283,7 +283,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: clamp(40px, 4.4vw, 96px);
+  font-size: clamp(40px, 5.4vw, 96px);
   line-height: 85.5px;
   /* 178.125% */
   letter-spacing: -2.64px;
@@ -475,11 +475,15 @@
 }
 
 .immer-title h2 {
-  font-size: clamp(35px, 4.4vw, 96px);
+  font-size: clamp(35px, 5.4vw, 96px);
   font-style: normal;
   font-weight: 700;
   letter-spacing: -5.28px;
   line-height: 88%;
+  background: radial-gradient(88.85% 98.27% at 98.26% -0.00%, #FFF 0%, #727272 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .immer-pragrap {
@@ -487,11 +491,11 @@
   padding-left: 100px;
 }
 
-.immer-title-color {
-  font-size: clamp(35px, 4.4vw, 96px);
+h2.immer-title-color {
+  font-size: clamp(35px, 5.4vw, 96px);
   font-style: normal;
   font-weight: 700;
-  background: linear-gradient(177deg, #990101 20.74%, rgba(128, 5, 52, 0.00) 100%);
+  background: linear-gradient(93deg, #990101 20.74%, rgba(128, 5, 52, 0.00) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -599,7 +603,7 @@ h2.degital-title-top {
   background: #000;
   -webkit-clip-path: polygon(100% 0%, 100% 100%, 0 99%, 0 0, 50% 7%);
   /* border-radius: 100px; */
-  padding: 135px 90px;
+  padding: 135px 50px;
   clip-path: polygon(0.321% 9.564%, 0.321% 9.564%, 0.416% 7.993%, 0.691% 6.513%, 1.129% 5.147%, 1.714% 3.915%, 2.429% 2.838%, 3.256% 1.938%, 4.181% 1.237%, 5.185% 0.754%, 6.253% 0.513%, 7.367% 0.533%, 49.598% 6.449%, 49.598% 6.449%, 49.725% 6.465%, 49.852% 6.477%, 49.979% 6.486%, 50.106% 6.491%, 50.233% 6.493%, 50.36% 6.491%, 50.487% 6.486%, 50.614% 6.477%, 50.741% 6.464%, 50.868% 6.448%, 92.627% 0.543%, 92.627% 0.543%, 93.742% 0.522%, 94.811% 0.762%, 95.816% 1.244%, 96.741% 1.945%, 97.569% 2.845%, 98.284% 3.922%, 98.87% 5.154%, 99.308% 6.521%, 99.584% 8.001%, 99.679% 9.573%, 99.679% 81.548%, 99.679% 81.548%, 99.611% 82.876%, 99.411% 84.149%, 99.09% 85.351%, 98.655% 86.467%, 98.117% 87.483%, 97.485% 88.382%, 96.767% 89.152%, 95.973% 89.776%, 95.111% 90.239%, 94.192% 90.527%, 51.021% 99.446%, 51.021% 99.446%, 50.837% 99.48%, 50.652% 99.507%, 50.467% 99.526%, 50.282% 99.537%, 50.096% 99.541%, 49.911% 99.537%, 49.725% 99.526%, 49.54% 99.507%, 49.355% 99.481%, 49.171% 99.446%, 5.812% 90.523%, 5.812% 90.523%, 4.892% 90.236%, 4.03% 89.773%, 3.235% 89.149%, 2.517% 88.38%, 1.884% 87.48%, 1.346% 86.464%, 0.911% 85.348%, 0.589% 84.146%, 0.389% 82.872%, 0.321% 81.543%, 0.321% 9.564%);
 }
 
@@ -611,6 +615,7 @@ h2.degital-title-top {
   display: flex;
   justify-content: space-between;
   align-items: end;
+  gap: 14px;
 }
 
 .service-btn-area {
@@ -637,7 +642,7 @@ h2.degital-title-top {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .name-image h2 {
@@ -647,7 +652,7 @@ h2.degital-title-top {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: clamp(20px, 2.4vw, 38px);
+  font-size: clamp(20px, 2.4vw, 45px);
   text-align: left;
 }
 
@@ -682,12 +687,12 @@ h2.service-name3 {
 }
 
 .cta-alt-btn {
-  border: 2px solid #6D6D6D;
+  border: 2px solid #363636;
   border-radius: 50px;
   padding: 8px 30px;
   font-weight: 700;
   color: #6D6D6D;
-  background: #161616;
+  background: #363636;
   box-shadow: 12px 10px 20px 3px #000000b3;
 }
 
@@ -755,6 +760,7 @@ h2.service-name3 {
   display: flex;
   align-items: end;
   height: 100%;
+  width: 100%;
 }
 
 .second-service-col {
@@ -768,7 +774,7 @@ h2.service-name3 {
 
 .tab-pane {
   display: block;
-  filter: drop-shadow(10px 17px 29px black);
+  filter: drop-shadow(40px 30px 50px #0A0A0A);
 }
 
 .logo-slider-wrapper::before {
@@ -800,7 +806,7 @@ h2.service-name3 {
 }
 
 .blog-slider .swiper-wrapper .swiper-slide {
-  transform: scale(0.8);
+  transform: scale(0.9);
   transition: .3s;
 }
 
@@ -951,6 +957,20 @@ h2.service-name3 {
 
 .immer-pragrap p {
   background: radial-gradient(61.42% 204.63% at 48.89% 39.96%, #FFF 0%, rgba(0, 0, 0, 0.00) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tab-btn-wrapper a {
+  box-shadow: 25px 15px 40px 1px #000;
+}
+
+.immer-title-color2 {
+  font-size: clamp(35px, 5.4vw, 96px);
+  font-style: normal;
+  font-weight: 700;
+  background: linear-gradient(92deg, #990101 82.74%, rgba(128, 5, 52, 0.00) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
