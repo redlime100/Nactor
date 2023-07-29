@@ -20,6 +20,7 @@ ul.nav-menu {
   display: flex;
   align-items: center;
   gap: 10px;
+  font-size: 16px;
   background: radial-gradient(65.5% 117.12% at 37.83% 60.96%,
       #cecdcd 16.95%,
       rgba(242, 242, 242, 0) 100%);

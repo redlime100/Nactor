@@ -117,8 +117,8 @@ table.table {
 }
 
 .custom-btn {
-  padding: 8px 30px;
-  font-size: 20px;
+  padding: 2px 28px;
+  font-size: 16px;
   color: var(--white-color);
   transition: 0.3s;
   font-weight: 700;

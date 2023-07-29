@@ -11,21 +11,20 @@
   line-height: 100%;
   letter-spacing: -8.96px;
   font-weight: 700;
-  background: radial-gradient(469.05% 92.64% at 46.45% 50%,
-      #f7f7f7 0%,
-      rgba(255, 255, 255, 0) 100%);
+  background: rgb(147, 146, 146);
+  background: linear-gradient(206deg, rgb(0 0 0) 0%, rgba(221, 221, 221, 1) 50%, rgb(0 0 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .banner-content h1 span {
-  background: radial-gradient(638.83% 111.98% at 37.73% 67.6%,
-      #00adef 0%,
-      rgba(7, 23, 150, 0) 100%);
+  background: rgb(0, 62, 130);
+  background: linear-gradient(239deg, rgb(0 25 52) 0%, rgba(0, 122, 255, 1) 50%, rgb(0 29 60) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  position: relative;
 }
 
 .banner-content p {
@@ -44,7 +43,7 @@
   font-weight: 700;
   margin-top: 21px;
   letter-spacing: -1.98px;
-  background: radial-gradient(23.94% 69.59% at 50.12% 56.38%, #989898 0%, rgba(206, 198, 198, 0.00) 100%);
+  background: radial-gradient(27.94% 85.59% at 48.12% 56.38%, #989898 0%, rgba(206, 198, 198, 0.00) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -57,7 +56,7 @@
 .banner {
   padding-top: 50px;
   position: relative;
-  padding-bottom: 327px;
+  padding-bottom: 307px;
 }
 
 .banner-img {
@@ -83,7 +82,7 @@
 
 /* =========================social media====================== */
 .social-service-section {
-  margin-top: -249px;
+  margin-top: -299px;
   position: relative;
   /* padding-bottom: 337px; */
   background: #000;
@@ -488,7 +487,7 @@
 
 .immer-pragrap {
   text-align: right;
-  padding-left: 100px;
+  padding-left: 90px;
 }
 
 h2.immer-title-color {
