@@ -20,11 +20,12 @@
 
 .banner-content h1 span {
   background: rgb(0, 62, 130);
-  background: linear-gradient(239deg, rgb(0 25 52) 0%, rgba(0, 122, 255, 1) 50%, rgb(0 29 60) 100%);
+  background: linear-gradient(239deg, rgb(0 25 52) 0%, rgb(57 152 255) 50%, rgb(0 29 60) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
+  padding-right: 10px;
 }
 
 .banner-content p {
