@@ -873,6 +873,7 @@ h2.service-name3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .border-shpa img {

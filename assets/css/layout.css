@@ -33,6 +33,8 @@ a.nav-link i {
   -webkit-text-fill-color: transparent;
   /* transition: 0.3s; */
   font-weight: 700;
+  outline: none;
+  border: none;
 }
 
 .nav-item:hover .nav-link {
