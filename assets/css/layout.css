@@ -10,6 +10,10 @@ ul.nav-menu {
   gap: 20px;
 }
 
+a.nav-link i {
+  font-size: 25px;
+}
+
 .cta-language {
   display: flex;
   align-items: center;
@@ -19,7 +23,7 @@ ul.nav-menu {
 .nav-link {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 3px;
   font-size: 16px;
   background: radial-gradient(65.5% 117.12% at 37.83% 60.96%,
       #cecdcd 16.95%,
@@ -52,20 +56,24 @@ a.language-link {
 
 .header {
   padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background: #000;
 }
 
 .mega-menu {
   position: absolute;
   left: 0;
   right: 0;
-  padding: 50px 0;
-  backdrop-filter: blur(17px);
+  /* padding: 50px 0; */
+  backdrop-filter: blur(10px);
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
   z-index: 99;
   height: 100vh;
-  background: #000000a6;
+  /* background: #000000a6; */
   overflow-y: auto;
 }
 
@@ -103,7 +111,7 @@ li.nav-item:hover .mega-menu {
 }
 
 .menu-title h3 {
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 700;
   color: #5a5a5a;
   margin-bottom: 7px;
@@ -118,7 +126,7 @@ a.mega-link {
   font-weight: 700;
   transition: 0.3s;
   width: 100%;
-  line-height: 45.5px;
+
   /* 126.389% */
   letter-spacing: -1.98px;
 }
@@ -338,4 +346,21 @@ ul.menu-footer-link li a:hover {
   .logo img {
     width: 130px;
   }
+}
+
+.mega-menu .container-fluid {
+  background: #000000a6;
+  height: fit-content;
+  padding-top: 50px;
+  overflow-y: auto;
+  padding-bottom: 70px;
+}
+
+.mega-text {
+  color: #d7d7d7;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -1.1px;
 }
