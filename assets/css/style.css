@@ -110,7 +110,7 @@
 
 /* =========================social media====================== */
 .social-service-section {
-  margin-top: -299px;
+  margin-top: -235px;
   position: relative;
   /* padding-bottom: 337px; */
   background: #000;
@@ -364,9 +364,11 @@
 
 /* ===================Tabs area =============== */
 .tab-area-wrapper {
-  padding: 161px 0;
+  position: relative;
+  background: rgb(232,232,232);
+  background: linear-gradient(95deg, rgb(255 255 255 / 64%) 0%, rgba(255,253,253,1) 50%, rgb(255 255 255 / 61%) 100%);
+  padding: 124px 0;
   padding-bottom: 241px;
-  background: #ddd;
   margin-top: -100px;
   -webkit-clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
   clip-path: polygon(
@@ -475,10 +477,11 @@
 }
 
 .tab-item {
-  margin-top: 52px;
+  margin-top: 29px;
   background: #000;
   border-radius: 15px;
-  padding: 107px 100px;
+  height: 630px;
+  padding: 85px 100px;
   -webkit-clip-path: polygon(
     50% 4%,
     100% 0,
@@ -577,6 +580,19 @@
   font-size: clamp(30px, 3.1vw, 64px);
   font-weight: 700;
   line-height: 90%;
+   /* 85.156% */
+  letter-spacing: -3.52px;
+  padding-bottom: 10px;
+}
+.primary-bg-title{
+  background: radial-gradient(9014.37% 180.68% at 92.84% 38.46%, #2C2A2A 0%, #4F4E50 33.77%, #C621EF 52.05%, #3000EF 68.45%, #000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: radial-gradient(9014.37% 180.68% at 92.84% 38.46%, #4F4E50 62.76%, #000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .tab-content-title {
@@ -593,29 +609,21 @@
   -webkit-text-fill-color: transparent;
 }
 
-.tab-content-title span.tab-1-title-color {
-  background: rgb(41, 1, 154);
-  background: linear-gradient(
-    90deg,
-    rgba(41, 1, 154, 1) 0%,
-    rgba(162, 29, 171, 1) 79%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+.tab-content-title span.tab-1-title-color {background: radial-gradient(106.37% 180.68% at 92.84% 38.46%, #2C2A2A 0%, #4F4E50 33.77%, #C621EF 52.05%, #3000EF 68.45%, #000 100%);background-clip: text;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 
 .tab-paragraph {
   font-size: 24px;
   font-weight: 700;
   background: radial-gradient(
     61.51% 94.61% at 48.89% 39.96%,
-    #fff 0%,
+    #fff 25%,
     #000 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 129%;
+  line-height: 116%;
+  letter-spacing: -1.44px;
 }
 
 .tab-paragraph p {
@@ -624,9 +632,9 @@
 
 .color-text-tab-1 {
   background: radial-gradient(
-    206.16% 79.04% at 24.28% 81.47%,
-    #c322ec 0%,
-    #2e01e3 56.41%
+    97.16% 125.04% at 50.28% 47.47%,
+    #c322ec 13%,
+    #2e01e3 44.41%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -634,11 +642,7 @@
 }
 
 .color-text-tab-2 {
-  background: radial-gradient(
-    165.51% 94.61% at 48.89% 39.96%,
-    #c0f 0%,
-    #242fae 67.19%
-  );
+  background: radial-gradient(    100.16% 125.04% at 50.28% 47.47%,    #c322ec 13%,    #2e01e3 44.41%  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -652,25 +656,14 @@
   position: relative;
 }
 
-.tab-content-title2 {
-  background: rgb(64, 11, 180);
-  background: radial-gradient(
-    circle,
-    rgba(64, 11, 180, 1) 0%,
-    rgba(203, 73, 185, 1) 50%,
-    rgba(171, 170, 169, 1) 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+.tab-content-title2 {background: radial-gradient(117.14% 431.17% at 100.00% -43.16%, #000 2.08%, #FFF 32.28%, #162DAA 64.58%, #B843D5 82.70%, #000 100%);background-clip: text;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 
 .tab-content-title3 {
   background: rgb(74, 194, 0);
   background: linear-gradient(
     90deg,
     rgba(74, 194, 0, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
+    rgba(255, 255, 255, 1) 58%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -693,7 +686,7 @@
   background: linear-gradient(
     90deg,
     rgba(255, 208, 40, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
+    rgba(255, 255, 255, 1) 54%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -715,8 +708,8 @@
   background: rgb(83, 0, 20);
   background: linear-gradient(
     90deg,
-    rgba(83, 0, 20, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
+    rgb(116 3 30) 35%,
+    rgba(255, 255, 255, 1) 84%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -1304,7 +1297,7 @@ h2.service-name3 {
 }
 
 .tab-area-wrapper::before {
-  content: "";
+  /* content: ""; */
   /* left: 0; */
   /* right: 0; */
   top: 10%;
@@ -1545,7 +1538,7 @@ h2.service-name3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .immer-pragrap p {
@@ -1571,4 +1564,13 @@ h2.service-name3 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.tab-item-inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.content-wrapper {
+  padding-right: 100px;
 }
