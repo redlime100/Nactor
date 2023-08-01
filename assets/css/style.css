@@ -735,7 +735,7 @@
   background-size: cover;
   background-position: center;
   padding: 150px 0;
-  padding-bottom: 486px;
+  padding-bottom: 536px;
   -webkit-clip-path: polygon(50% 7%, 100% 0, 100% 100%, 0 99%, 0 0);
   clip-path: polygon(
     0% 8.532%,
@@ -789,7 +789,7 @@
 
 .immer-pragrap {
   text-align: right;
-  padding-left: 178px;
+  padding-left: 192px;
 }
 
 h2.immer-title-color {
@@ -810,7 +810,7 @@ h2.immer-title-color {
 }
 
 .immer-title {
-  margin-bottom: 64px;
+  margin-bottom: 40px;
 }
 
 /* =====================digital================== */
@@ -1239,7 +1239,7 @@ h2.degital-title-top {
   font-size: clamp(20px, 2.4vw, 45px);
   text-align: left;
   letter-spacing: -2.475px;
-  line-height: 43px;
+  /* line-height: 43px; */
 }
 
 .price-text {
@@ -1584,12 +1584,13 @@ h2.service-name3 {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 45.5px; 
+  line-height: 45.5px;
   letter-spacing: -1.1px;
   background: var(--main-color);
   color: var(--white-color);
   padding: 0px 44px;
   border-radius: 50px;
+  transition: .3s;
 }
 
 .footer-bottom-content-con{
@@ -1625,4 +1626,16 @@ h2.service-name3 {
 .service-alt:hover {
   background: var(--main-color);
   color: var(--white-color);
+}
+
+.immer-btn:hover{
+  background: var(--white-color);
+  color: var(--main-color);
+}
+
+.grabt{
+  color: #ff6006;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
 }

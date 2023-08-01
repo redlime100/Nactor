@@ -98,7 +98,7 @@
 
 .vorteile-list {
     position: relative;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .vorteile-list::before {
@@ -116,6 +116,7 @@
     color: #fff;
     font-size: 18px;
     font-weight: 700;
+    transition: .3s;
 }
 
 .footer-title-btn-item .footer-btn-1 {
@@ -190,6 +191,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
 }
 
 .social-media-wrapper a {
@@ -197,7 +199,7 @@
 }
 
 .social-media-wrapper a img {
-    width: 80px;
+    width: 139px;
 }
 
 .footer-glossar {
@@ -206,7 +208,7 @@
 }
 
 .footer-glossar .glossar-card-item h2 {
-    font-size: 80px;
+    font-size: 70px;
     line-height: 70px;
     font-weight: 700;
     position: relative;
@@ -245,7 +247,7 @@
 }
 
 .footer-item-links a {
-    color: #fff;
+    color: #7e7a7a;
     font-size: 18px;
     font-weight: 600;
 }
@@ -261,7 +263,7 @@
 }
 
 .footer-bottom-content-con p {
-    color: #fff;
+    color: #7e7a7a;
     font-size: 18px;
 }
 
@@ -444,7 +446,7 @@ button.revolution-btn {
 .company-service-section {
     padding: 130px 0 138px 0;
     position: relative;
-    top: -133px;
+    top: -166px;
     background: #000;
     -webkit-clip-path: polygon(100% 0%, 100% 100%, 0 99%, 0 0, 50% 7%);
     /* border-radius: 143px; */
@@ -659,5 +661,37 @@ button.revolution-btn {
 }
 
 .footer-content-box {
-    filter: drop-shadow(2.75em 2.75em 58px #000);
+    filter: drop-shadow(3.75em 2.75em 70px #000);
+}
+.footer-shap-top {
+    position: absolute;
+    bottom: -4%;
+}
+
+.language-text-color{
+    background: radial-gradient(699.05% 112.64% at 103.45% 50%, #F7F7F7 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.glossar-card-item a {
+    color: #fff;
+    transition: .3s;
+    font-weight: 700;
+    margin: 0 4px;
+    font-size: 13px;
+}
+.glossar-card-item a:hover{
+    color: var(--main-color);
+}
+
+a.footer-btn-1:hover {
+    background: #fff;
+    color: var(--main-color);
+}
+
+a.footer-btn-2:hover {
+    background: var(--white-color);
+    color: var(--main-color);
 }
