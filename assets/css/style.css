@@ -454,6 +454,7 @@
   padding: 5px;
   flex-wrap: initial;
   overflow-x: auto;
+  gap: 50px;
 }
 
 .nav-tab-ul::-webkit-scrollbar {
@@ -463,7 +464,7 @@
 
 .nav-tabs-btn {
   background: none;
-  padding: 8px 30px;
+  padding: 8px 15px;
   color: var(--white-color);
   border: none;
   font-size: 24px;
@@ -773,8 +774,8 @@
 .immer-title h2 {
   font-size: clamp(35px, 5.4vw, 96px);
   font-style: normal;
-  font-weight: 700;
   letter-spacing: -5.28px;
+  font-weight: 700;
   line-height: 88%;
   background: radial-gradient(
     88.85% 98.27% at 98.26% -0%,
@@ -788,7 +789,7 @@
 
 .immer-pragrap {
   text-align: right;
-  padding-left: 90px;
+  padding-left: 178px;
 }
 
 h2.immer-title-color {
@@ -821,7 +822,7 @@ h2.immer-title-color {
   position: relative;
   text-align: center;
   z-index: 1;
-  margin-bottom: -98px;
+  margin-bottom: -190px;
 }
 
 .digital-content {
@@ -1103,7 +1104,7 @@ h2.degital-title-top {
   background: #000;
   -webkit-clip-path: polygon(100% 0%, 100% 100%, 0 99%, 0 0, 50% 7%);
   /* border-radius: 100px; */
-  padding: 135px 50px;
+  padding: 123px 50px;
   clip-path: polygon(
     0.321% 9.564%,
     0.321% 9.564%,
@@ -1179,6 +1180,7 @@ h2.degital-title-top {
     0.321% 81.543%,
     0.321% 9.564%
   );
+  padding-top: 74px;
 }
 
 .service-card-inner {
@@ -1204,7 +1206,7 @@ h2.degital-title-top {
 
 .service-card {
   background: #212121;
-  padding: 30px;
+  padding: 22px;
   -webkit-clip-path: polygon(100% 0%, 100% 100%, 0 99%, 0 0, 50% 5%);
   clip-path: polygon(100% 0%, 100% 100%, 0 99%, 0 0, 50% 5%);
   border-radius: 41px;
@@ -1236,6 +1238,8 @@ h2.degital-title-top {
   font-weight: 700;
   font-size: clamp(20px, 2.4vw, 45px);
   text-align: left;
+  letter-spacing: -2.475px;
+  line-height: 43px;
 }
 
 .price-text {
@@ -1458,12 +1462,12 @@ h2.service-name3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .border-shpa img {
   width: 100%;
-  margin-top: 11%;
+  margin-top: 5%;
   margin-right: -20%;
 }
 
@@ -1550,6 +1554,7 @@ h2.service-name3 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: -2.2px;
 }
 
 .tab-btn-wrapper a {
@@ -1560,10 +1565,11 @@ h2.service-name3 {
   font-size: clamp(35px, 5.4vw, 96px);
   font-style: normal;
   font-weight: 700;
-  background: linear-gradient(92deg, #990101 82.74%, rgba(128, 5, 52, 0) 100%);
+  background: linear-gradient(92deg, #990101 73.74%, rgba(128, 5, 52, 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: -5.28px;
 }
 .tab-item-inner {
   height: 100%;
@@ -1573,4 +1579,19 @@ h2.service-name3 {
 
 .content-wrapper {
   padding-right: 100px;
+}
+.immer-btn {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45.5px; 
+  letter-spacing: -1.1px;
+  background: var(--main-color);
+  color: var(--white-color);
+  padding: 0px 44px;
+  border-radius: 50px;
+}
+
+.footer-bottom-content-con{
+  margin-top: 100px;
 }
