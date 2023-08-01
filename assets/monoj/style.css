@@ -458,10 +458,11 @@ button.revolution-btn {
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    background: linear-gradient(182deg, #FFF 24.30%, #000 100%);
+    background: linear-gradient(270deg, #e9e4e4 24.30%, #999393 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    letter-spacing: -3.52px;
 }
 
 .company-slider-wrapper .company-title-section h1 {
@@ -472,6 +473,7 @@ button.revolution-btn {
     font-weight: 700;
     /* line-height: 81px; */
     /* letter-spacing: -5.28px; */
+    letter-spacing: -3.52px;
 }
 
 .company-list-item p {

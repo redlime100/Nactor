@@ -133,72 +133,21 @@ var swiper = new Swiper(".blogSliderMobile", {
   
 
 });
-// ============ Company =============
-// var swiper = new Swiper(".companySlider", {
-//   spaceBetween: 30,
-//   // initialSlide: "5",
-//   // centeredSlides: true,
-//   loop: true,
-//   autoplay: {
-//     delay: 3000,
-//     disableOnInteraction: false,
-//   },
-//   breakpoints: {
-//     0: {
-//       slidesPerView: 1.2,
-//       spaceBetween: 10,
-//     },
-//     768: {
-//       slidesPerView: 2,
-//       spaceBetween: 30,
-//     },
-//     1024: {
-//       slidesPerView:2.5,
-//       spaceBetween: 30,
-//     },
-
-//     1250: {
-//       slidesPerView: 3.9,
-//       spaceBetween: 30,
-//     },
-//   },
-// });
-// var swiper = new Swiper(".companySlider-2", {
-//   spaceBetween: 30,
-//   loop: true,
-//   autoplay: {
-//     delay: 3000,
-//     disableOnInteraction: false,
-//   },
-//   breakpoints: {
-//     0: {
-//       slidesPerView: 1.1,
-//       spaceBetween: 10,
-//     },
-//     768: {
-//       slidesPerView: 2,
-//       spaceBetween: 30,
-//     },
-//     1024: {
-//       slidesPerView: 2,
-//       spaceBetween: 30,
-//     },
-//     1250: {
-//       slidesPerView: 3.5,
-//       spaceBetween: 30,
-//     },
-//   },
-// });
 
 
 $(document).ready(function() {
   var swiper = new Swiper(".companySlider", {
     spaceBetween: 30,
     loop: true,
-    // autoplay: {
-    //   delay: 3000,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 1,
+      disableOnInteraction: false,
+      draggable: true,
+      autoplayDisableOnInteraction: false,
+    },
+    freeMode: true,
+    speed: 5000,
+    freeModeMomentum: false,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -223,6 +172,7 @@ $(document).ready(function() {
       },
     },
   });
+  
 });
 
 
@@ -241,12 +191,6 @@ function loader() {
   $(window).on('load', function () {
     $('#preloader').addClass('loaded');
     $("#loading").fadeOut(500);
-
-    // if ($('#ctn-preloader').hasClass('loaded')) {
-    //   $('#preloader').delay(900).queue(function () {
-    //     $(this).remove();
-    //   });
-    // }
   });
 }
 loader();

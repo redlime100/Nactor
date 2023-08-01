@@ -1595,3 +1595,34 @@ h2.service-name3 {
 .footer-bottom-content-con{
   margin-top: 100px;
 }
+
+.service-btn {
+  background: var(--main-color);
+  color: var(--white-color);
+  padding: 9px 43px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -1.1px;
+  transition: .3s;
+}
+.service-btn:hover {
+  background: #363636;
+  color: #B0B0B0;
+}
+
+.service-alt {
+  background: #363636;
+  color: #B0B0B0;
+  padding: 9px 24px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -1.1px;
+  transition: .3s;
+}
+
+.service-alt:hover {
+  background: var(--main-color);
+  color: var(--white-color);
+}
