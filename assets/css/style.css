@@ -365,8 +365,13 @@
 /* ===================Tabs area =============== */
 .tab-area-wrapper {
   position: relative;
-  background: rgb(232,232,232);
-  background: linear-gradient(95deg, rgb(255 255 255 / 64%) 0%, rgba(255,253,253,1) 50%, rgb(255 255 255 / 61%) 100%);
+  background: rgb(232, 232, 232);
+  background: linear-gradient(
+    95deg,
+    rgb(255 255 255 / 64%) 0%,
+    rgba(255, 253, 253, 1) 50%,
+    rgb(255 255 255 / 61%) 100%
+  );
   padding: 124px 0;
   padding-bottom: 241px;
   margin-top: -100px;
@@ -581,16 +586,27 @@
   font-size: clamp(30px, 3.1vw, 64px);
   font-weight: 700;
   line-height: 90%;
-   /* 85.156% */
+  /* 85.156% */
   letter-spacing: -3.52px;
   padding-bottom: 10px;
 }
-.primary-bg-title{
-  background: radial-gradient(9014.37% 180.68% at 92.84% 38.46%, #2C2A2A 0%, #4F4E50 33.77%, #C621EF 52.05%, #3000EF 68.45%, #000 100%);
+.primary-bg-title {
+  background: radial-gradient(
+    9014.37% 180.68% at 92.84% 38.46%,
+    #2c2a2a 0%,
+    #4f4e50 33.77%,
+    #c621ef 52.05%,
+    #3000ef 68.45%,
+    #000 100%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background: radial-gradient(9014.37% 180.68% at 92.84% 38.46%, #4F4E50 62.76%, #000 100%);
+  background: radial-gradient(
+    9014.37% 180.68% at 92.84% 38.46%,
+    #4f4e50 62.76%,
+    #000 100%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -610,7 +626,19 @@
   -webkit-text-fill-color: transparent;
 }
 
-.tab-content-title span.tab-1-title-color {background: radial-gradient(106.37% 180.68% at 92.84% 38.46%, #2C2A2A 0%, #4F4E50 33.77%, #C621EF 52.05%, #3000EF 68.45%, #000 100%);background-clip: text;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.tab-content-title span.tab-1-title-color {
+  background: radial-gradient(
+    106.37% 180.68% at 92.84% 38.46%,
+    #2c2a2a 0%,
+    #4f4e50 33.77%,
+    #c621ef 52.05%,
+    #3000ef 68.45%,
+    #000 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .tab-paragraph {
   font-size: 24px;
@@ -643,7 +671,11 @@
 }
 
 .color-text-tab-2 {
-  background: radial-gradient(    100.16% 125.04% at 50.28% 47.47%,    #c322ec 13%,    #2e01e3 44.41%  );
+  background: radial-gradient(
+    100.16% 125.04% at 50.28% 47.47%,
+    #c322ec 13%,
+    #2e01e3 44.41%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -657,7 +689,19 @@
   position: relative;
 }
 
-.tab-content-title2 {background: radial-gradient(117.14% 431.17% at 100.00% -43.16%, #000 2.08%, #FFF 32.28%, #162DAA 64.58%, #B843D5 82.70%, #000 100%);background-clip: text;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.tab-content-title2 {
+  background: radial-gradient(
+    117.14% 431.17% at 100% -43.16%,
+    #000 2.08%,
+    #fff 32.28%,
+    #162daa 64.58%,
+    #b843d5 82.7%,
+    #000 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .tab-content-title3 {
   background: rgb(74, 194, 0);
@@ -1590,11 +1634,11 @@ h2.service-name3 {
   color: var(--white-color);
   padding: 0px 44px;
   border-radius: 50px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.footer-bottom-content-con{
-  margin-top: 100px;
+.footer-bottom-content-con {
+  /* margin-top: 100px; */
 }
 
 .service-btn {
@@ -1605,22 +1649,22 @@ h2.service-name3 {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: -1.1px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .service-btn:hover {
   background: #363636;
-  color: #B0B0B0;
+  color: #b0b0b0;
 }
 
 .service-alt {
   background: #363636;
-  color: #B0B0B0;
+  color: #b0b0b0;
   padding: 9px 24px;
   border-radius: 50px;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: -1.1px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .service-alt:hover {
@@ -1628,12 +1672,12 @@ h2.service-name3 {
   color: var(--white-color);
 }
 
-.immer-btn:hover{
+.immer-btn:hover {
   background: var(--white-color);
   color: var(--main-color);
 }
 
-.grabt{
+.grabt {
   color: #ff6006;
   font-size: 20px;
   font-weight: 700;
