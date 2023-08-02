@@ -228,7 +228,10 @@
   font-size: 30px;
   white-space: nowrap;
   color: #c8c8c8;
-  word-spacing: 4rem;
+  /* word-spacing: 4rem; */
+}
+.slider-item h2 span {
+  margin: 0 25px;
 }
 
 .slider-item {
@@ -644,7 +647,7 @@
   font-size: 24px;
   font-weight: 700;
   background: radial-gradient(
-    61.51% 94.61% at 48.89% 39.96%,
+    70.51% 108.61% at 52.89% 42.96%,
     #fff 25%,
     #000 100%
   );
@@ -691,9 +694,9 @@
 
 .tab-content-title2 {
   background: radial-gradient(
-    117.14% 431.17% at 100% -43.16%,
+    117.14% 458.17% at 100% -94.16%,
     #000 2.08%,
-    #fff 32.28%,
+    #fff 29.28%,
     #162daa 64.58%,
     #b843d5 82.7%,
     #000 100%
@@ -707,7 +710,7 @@
   background: rgb(74, 194, 0);
   background: linear-gradient(
     90deg,
-    rgba(74, 194, 0, 1) 0%,
+    rgb(54 139 2) 0%,
     rgba(255, 255, 255, 1) 58%
   );
   background-clip: text;
@@ -763,9 +766,9 @@
 
 .color-text-tab-5 {
   background: radial-gradient(
-    90.5% 77.55% at 47.43% 24.6%,
-    #ad3350 21.88%,
-    #330014 100%
+    90.5% 163.55% at 52.43% 93.6%,
+    #ca0030 21.88%,
+    #dc3545 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -899,6 +902,7 @@ h2.degital-title-top {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-bottom: 14px;
 }
 
 .degital-section {
@@ -1400,7 +1404,7 @@ h2.service-name3 {
 }
 
 .second-service-col {
-  padding-bottom: 71px;
+  padding-bottom: 50px;
 }
 
 .last-service-col {
@@ -1609,7 +1613,7 @@ h2.service-name3 {
   font-size: clamp(35px, 5.4vw, 96px);
   font-style: normal;
   font-weight: 700;
-  background: linear-gradient(92deg, #990101 73.74%, rgba(128, 5, 52, 0) 100%);
+  background: linear-gradient(92deg, #990101 73.74%, rgb(153 1 1 / 22%) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1682,4 +1686,28 @@ h2.service-name3 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 5px;
+}
+.grabt,
+.service-color {
+  color: #ff6006 !important;
+}
+.service-title {
+  font-size: 48px !important;
+}
+.point {
+  width: 50px !important;
+  margin-top: 85px;
+}
+
+.tab-panel-2 {
+  padding-right: 222px;
+}
+.tab-panel-3 {
+  padding-right: 230px;
+}
+.tab-panel-4 {
+  padding-right: 230px;
+}
+.tab-panel-des {
+  padding-right: 115px;
 }
