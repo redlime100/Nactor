@@ -1,532 +1,1065 @@
 @media screen and (max-width: 1500px) {
-    .company-list-item {
-        height: 503px;
-    }
+  .company-list-item {
+    height: 503px;
+  }
 }
 
 @media screen and (max-width: 1400px) {
-    .company-service-section {
-        padding: 204px 0px 48px;
-    }
+  .company-service-section {
+    padding: 204px 0px 48px;
+  }
 
-    .footer {
-        margin-top: -197px;
-    }
+  .footer {
+    margin-top: -197px;
+  }
 
-    .service-inner-wrapper {
-        align-items: start;
-    }
+  .service-inner-wrapper {
+    align-items: start;
+  }
 
-    .second-service-col {
-        padding-bottom: 0px;
-    }
+  .second-service-col {
+    padding-bottom: 0px;
+  }
 
-    .name-image img {
-        width: 100px;
-    }
+  .name-image img {
+    width: 100px;
+  }
 
-    .last-service-col {
-        padding-bottom: 0px;
-    }
+  .last-service-col {
+    padding-bottom: 40px;
+  }
 
-    .xl-d-none {
-        display: none;
-    }
+  .xl-d-none {
+    display: none;
+  }
 
-    .banner-content h1 {
-        font-size: 116px;
-    }
+  .banner-content h1 {
+    font-size: 116px;
+  }
+  .tab-panel-2 {
+    padding-right: 100px;
+  }
+  .tab-panel-3 {
+    padding-right: 115px;
+  }
+  .tab-panel-4 {
+    padding-right: 114px;
+  }
+  .tab-panel-des {
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 1300px) {
-    .company-service-section {
-        padding: 130px 0px 48px;
-    }
+  .company-service-section {
+    padding: 130px 0px 48px;
+  }
+  .bottom-content h2,
+  .top-content h2 {
+    font-size: 100px;
+  }
 
-    .footer-vorteile-item ul li {
-        font-size: 20px;
-    }
+  .footer-vorteile-item ul li {
+    font-size: 20px;
+  }
 
-    .price-text {
-        display: none;
-    }
+  .price-text {
+    display: none;
+  }
 
-    .service-btn-area {
-        padding: 0px;
-        width: fit-content;
-        margin: 20px auto auto;
-    }
+  .service-btn-area {
+    padding: 0px;
+    width: fit-content;
+    margin: 20px auto auto;
+  }
 
-    .company-list-item {
-        height: 370px;
-    }
+  .company-list-item {
+    height: 370px;
+  }
 
-    .slider-social {
-        height: 50px;
-    }
+  .slider-social {
+    height: 86px;
+  }
 
-    .banner-content h1 {
-        font-size: 60px;
-    }
+  .banner-content h1 {
+    font-size: 60px;
+    letter-spacing: -3.96px;
+  }
 
-    .banner-content h4 {
-        font-size: 25px;
-    }
+  .banner-content h4 {
+    font-size: 25px;
+  }
 
-    .banner-button {
-        margin-top: 35px;
-    }
+  .banner-button {
+    margin-top: 35px;
+  }
 
-    .blog-post-rac {
-        width: 268px;
-    }
+  .blog-post-rac {
+    width: 268px;
+    top: -44px;
+  }
 
-    .blog-post-top {
-        margin-top: 136px;
-    }
+  .blog-post-top {
+    margin-top: 136px;
+  }
 
-    .service {
-        padding-top: 170px;
-        padding-bottom: 132px;
-        clip-path: polygon(0% 5.447%, 0% 5.447%, 0.064% 4.88%, 0.253% 4.32%, 0.566% 3.768%, 1% 3.226%, 1.552% 2.697%, 2.22% 2.182%, 3.001% 1.684%, 3.893% 1.206%, 4.894% 0.748%, 6% 0.314%, 6.86% 0%, 12.585% 3.305%, 25.169% 4.111%, 50.339% 5.721%, 75.169% 4.111%, 87.585% 3.305%, 94.186% 0%, 95.209% 0.44%, 95.209% 0.44%, 96.098% 0.849%, 96.9% 1.275%, 97.614% 1.716%, 98.238% 2.171%, 98.77% 2.637%, 99.208% 3.114%, 99.552% 3.6%, 99.8% 4.093%, 99.95% 4.592%, 100% 5.095%, 100% 100%, 0% 100%, 0% 5.447%);
-        margin-top: -222px;
-    }
+  .service {
+    padding-top: 170px;
+    padding-bottom: 132px;
+    clip-path: polygon(
+      0% 5.447%,
+      0% 5.447%,
+      0.064% 4.88%,
+      0.253% 4.32%,
+      0.566% 3.768%,
+      1% 3.226%,
+      1.552% 2.697%,
+      2.22% 2.182%,
+      3.001% 1.684%,
+      3.893% 1.206%,
+      4.894% 0.748%,
+      6% 0.314%,
+      6.86% 0%,
+      12.585% 3.305%,
+      25.169% 4.111%,
+      50.339% 5.721%,
+      75.169% 4.111%,
+      87.585% 3.305%,
+      94.186% 0%,
+      95.209% 0.44%,
+      95.209% 0.44%,
+      96.098% 0.849%,
+      96.9% 1.275%,
+      97.614% 1.716%,
+      98.238% 2.171%,
+      98.77% 2.637%,
+      99.208% 3.114%,
+      99.552% 3.6%,
+      99.8% 4.093%,
+      99.95% 4.592%,
+      100% 5.095%,
+      100% 100%,
+      0% 100%,
+      0% 5.447%
+    );
+    margin-top: -222px;
+  }
 
-    a.mega-link {
-        font-size: 30px;
-    }
+  a.mega-link {
+    font-size: 30px;
+  }
 
-    .name-image img {
-        width: 85px;
-    }
+  .name-image img {
+    width: 85px;
+  }
+  .blur-img {
+    left: 2%;
+    right: 2%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    .footer-bottom-wrapper::after {
-        content: "";
-        top: 27px;
-    }
+  h5.grabt {
+    display: none;
+  }
+  .footer-bottom-wrapper::after {
+    content: "";
+    top: 27px;
+  }
+  .view-btn-area {
+    padding-top: 65px;
+    padding-bottom: 145px;
+  }
+  .banner {
+    padding-top: 30px;
+    padding-bottom: 334px;
+  }
 
-    .banner {
-        padding-top: 30px;
-        padding-bottom: 334px;
-    }
+  .tab-area-wrapper {
+    clip-path: polygon(
+      0% 2.301%,
+      0% 2.301%,
+      0.089% 1.9%,
+      0.346% 1.524%,
+      0.754% 1.178%,
+      1.298% 0.866%,
+      1.962% 0.595%,
+      2.73% 0.37%,
+      3.586% 0.197%,
+      4.514% 0.08%,
+      5.498% 0.027%,
+      6.523% 0.041%,
+      49.749% 2.121%,
+      49.749% 2.121%,
+      49.892% 2.127%,
+      50.035% 2.132%,
+      50.178% 2.136%,
+      50.322% 2.138%,
+      50.465% 2.138%,
+      50.608% 2.137%,
+      50.752% 2.135%,
+      50.895% 2.132%,
+      51.038% 2.127%,
+      51.181% 2.121%,
+      93.464% 0.047%,
+      93.464% 0.047%,
+      94.49% 0.032%,
+      95.476% 0.085%,
+      96.406% 0.201%,
+      97.264% 0.375%,
+      98.033% 0.599%,
+      98.699% 0.871%,
+      99.244% 1.182%,
+      99.653% 1.529%,
+      99.911% 1.906%,
+      100% 2.307%,
+      100% 97.723%,
+      100% 97.723%,
+      99.924% 98.093%,
+      99.704% 98.443%,
+      99.351% 98.77%,
+      98.878% 99.068%,
+      98.297% 99.333%,
+      97.62% 99.561%,
+      96.858% 99.746%,
+      96.024% 99.884%,
+      95.129% 99.97%,
+      94.186% 100%,
+      5.814% 100%,
+      5.814% 100%,
+      4.871% 99.97%,
+      3.976% 99.884%,
+      3.142% 99.746%,
+      2.38% 99.561%,
+      1.703% 99.333%,
+      1.122% 99.068%,
+      0.649% 98.77%,
+      0.296% 98.443%,
+      0.076% 98.093%,
+      0% 97.723%,
+      0% 2.301%
+    );
+  }
 
-    .tab-area-wrapper {
-        clip-path: polygon(0% 2.301%, 0% 2.301%, 0.089% 1.9%, 0.346% 1.524%, 0.754% 1.178%, 1.298% 0.866%, 1.962% 0.595%, 2.73% 0.37%, 3.586% 0.197%, 4.514% 0.08%, 5.498% 0.027%, 6.523% 0.041%, 49.749% 2.121%, 49.749% 2.121%, 49.892% 2.127%, 50.035% 2.132%, 50.178% 2.136%, 50.322% 2.138%, 50.465% 2.138%, 50.608% 2.137%, 50.752% 2.135%, 50.895% 2.132%, 51.038% 2.127%, 51.181% 2.121%, 93.464% 0.047%, 93.464% 0.047%, 94.49% 0.032%, 95.476% 0.085%, 96.406% 0.201%, 97.264% 0.375%, 98.033% 0.599%, 98.699% 0.871%, 99.244% 1.182%, 99.653% 1.529%, 99.911% 1.906%, 100% 2.307%, 100% 97.723%, 100% 97.723%, 99.924% 98.093%, 99.704% 98.443%, 99.351% 98.77%, 98.878% 99.068%, 98.297% 99.333%, 97.62% 99.561%, 96.858% 99.746%, 96.024% 99.884%, 95.129% 99.97%, 94.186% 100%, 5.814% 100%, 5.814% 100%, 4.871% 99.97%, 3.976% 99.884%, 3.142% 99.746%, 2.38% 99.561%, 1.703% 99.333%, 1.122% 99.068%, 0.649% 98.77%, 0.296% 98.443%, 0.076% 98.093%, 0% 97.723%, 0% 2.301%);
-    }
+  .immer {
+    background-size: 100%;
+    position: relative;
+    padding: 92px 0px 235px;
+    margin-top: -252px;
+  }
 
-    .immer {
-        background-size: 100%;
-        position: relative;
-        padding: 102px 0px 327px;
-        margin-top: -252px;
-    }
-
-    .service-card {
-        display: none;
-    }
+  .service-card {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1100px) {
-    .tab-area-wrapper {
-        padding: 85px 0px 320px;
-        margin-top: -24px;
-    }
+  .top-content {
+    margin-bottom: 0px;
+  }
+  .digital-content {
+    padding-top: 77px;
+  }
+  .content-wrapper {
+    padding-right: 0;
+  }
+  .tab-area-wrapper {
+    padding: 85px 0px 260px;
+    margin-top: -24px;
+  }
+  .tab-paragraph {
+    font-size: 18px;
+  }
+  .tab-item {
+    height: 460px;
+  }
 
-    .center-image-section {
-        width: 80%;
-    }
+  .center-image-section {
+    width: 80%;
+  }
 
-    .company-list-item {
-        height: 340px;
-    }
+  .company-list-item {
+    height: 340px;
+  }
 
-    .footer-all-service-item .service-item-card .service-title {
-        font-size: 39px;
-    }
+  .footer-all-service-item .service-item-card .service-title {
+    font-size: 39px;
+  }
 
-    .footer-bottom-wrapper {
-        padding: 166px 0px 0px;
-    }
+  .footer-bottom-wrapper {
+    padding: 166px 0px 0px;
+  }
+  .footer-title-content h1 {
+    font-size: 80px;
+    line-height: 100px;
+    letter-spacing: -3.04px;
+  }
+  .footer-title-content h3 {
+    font-size: 40px;
+    letter-spacing: -1.52px;
+  }
 }
 
 @media screen and (max-width: 1020px) {
-    .blog-post-slider {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+  .blog-post-slider {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
-    .center-home-img img {
-        width: 23%;
-    }
+  .center-home-img img {
+    width: 23%;
+  }
 
-    .border-shpa img {
-        width: 50%;
-        margin-right: -9%;
-        margin-top: -9%;
-    }
+  .border-shpa img {
+    width: 67%;
+    margin-right: -15%;
+    margin-top: -4%;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .mobile-btn {
-        display: flex;
-    }
+  .mobile-btn {
+    display: flex;
+  }
 
-    .social-service-section {
-        margin-top: -205px;
-    }
+  .social-service-section {
+    margin-top: -205px;
+  }
 
-    .view-btn-area {
-        padding: 48px 0px 100px;
-    }
+  .view-btn-area {
+    padding: 48px 0px 100px;
+  }
 
-    .view-btn-area h2 {
-        font-size: 40px;
-    }
+  .view-btn-area h2 {
+    font-size: 40px;
+  }
 
-    .slider-social::before {
-        display: none;
-    }
+  .slider-social::before {
+    display: none;
+  }
 
-    .slider-social::after {
-        display: none;
-    }
+  .slider-social::after {
+    display: none;
+  }
 
-    .banner {
-        padding-bottom: 296px;
-    }
+  .banner {
+    padding-bottom: 296px;
+  }
 
-    .tab-item {
-        padding: 91px;
-        clip-path: polygon(4.419% 4.486%, 4.419% 4.486%, 4.498% 3.967%, 4.729% 3.476%, 5.097% 3.02%, 5.589% 2.605%, 6.194% 2.238%, 6.897% 1.926%, 7.686% 1.676%, 8.547% 1.494%, 9.468% 1.388%, 10.435% 1.363%, 51.047% 2.125%, 90.022% 1.367%, 90.022% 1.367%, 90.991% 1.391%, 91.913% 1.497%, 92.775% 1.679%, 93.565% 1.929%, 94.269% 2.241%, 94.874% 2.608%, 95.367% 3.023%, 95.736% 3.479%, 95.967% 3.971%, 96.047% 4.49%, 96.047% 42.096%, 96.047% 83.03%, 96.047% 85.591%, 96.047% 85.591%, 95.967% 86.109%, 95.738% 86.598%, 95.372% 87.054%, 94.882% 87.468%, 94.281% 87.834%, 93.581% 88.146%, 92.796% 88.397%, 91.938% 88.58%, 91.021% 88.688%, 90.057% 88.715%, 84.535% 88.625%, 51.395% 87.688%, 16.279% 88.625%, 10.233% 88.625%, 10.233% 88.625%, 9.29% 88.584%, 8.395% 88.466%, 7.561% 88.276%, 6.799% 88.022%, 6.121% 87.71%, 5.54% 87.346%, 5.068% 86.936%, 4.715% 86.488%, 4.495% 86.007%, 4.419% 85.5%, 4.419% 83.03%, 4.419% 42.096%, 4.419% 4.486%);
-    }
+  .tab-item {
+    padding: 91px;
+    clip-path: polygon(
+      4.419% 4.486%,
+      4.419% 4.486%,
+      4.498% 3.967%,
+      4.729% 3.476%,
+      5.097% 3.02%,
+      5.589% 2.605%,
+      6.194% 2.238%,
+      6.897% 1.926%,
+      7.686% 1.676%,
+      8.547% 1.494%,
+      9.468% 1.388%,
+      10.435% 1.363%,
+      51.047% 2.125%,
+      90.022% 1.367%,
+      90.022% 1.367%,
+      90.991% 1.391%,
+      91.913% 1.497%,
+      92.775% 1.679%,
+      93.565% 1.929%,
+      94.269% 2.241%,
+      94.874% 2.608%,
+      95.367% 3.023%,
+      95.736% 3.479%,
+      95.967% 3.971%,
+      96.047% 4.49%,
+      96.047% 42.096%,
+      96.047% 83.03%,
+      96.047% 85.591%,
+      96.047% 85.591%,
+      95.967% 86.109%,
+      95.738% 86.598%,
+      95.372% 87.054%,
+      94.882% 87.468%,
+      94.281% 87.834%,
+      93.581% 88.146%,
+      92.796% 88.397%,
+      91.938% 88.58%,
+      91.021% 88.688%,
+      90.057% 88.715%,
+      84.535% 88.625%,
+      51.395% 87.688%,
+      16.279% 88.625%,
+      10.233% 88.625%,
+      10.233% 88.625%,
+      9.29% 88.584%,
+      8.395% 88.466%,
+      7.561% 88.276%,
+      6.799% 88.022%,
+      6.121% 87.71%,
+      5.54% 87.346%,
+      5.068% 86.936%,
+      4.715% 86.488%,
+      4.495% 86.007%,
+      4.419% 85.5%,
+      4.419% 83.03%,
+      4.419% 42.096%,
+      4.419% 4.486%
+    );
+  }
 
-    .tab-area-wrapper {
-        padding-bottom: 119px;
-        border-radius: 50px;
-    }
+  .tab-area-wrapper {
+    padding-bottom: 119px;
+    border-radius: 50px;
+  }
 
-    .degital-section {
-        padding-top: 0px;
-        position: relative;
-    }
+  .degital-section {
+    padding-top: 0px;
+    position: relative;
+  }
 
-    .company-service-section {
-        padding: 143px 0px 138px;
-        clip-path: polygon(0% 2.126%, 0% 2.126%, 0.087% 1.767%, 0.337% 1.429%, 0.735% 1.117%, 1.267% 0.836%, 1.916% 0.59%, 2.668% 0.384%, 3.508% 0.224%, 4.42% 0.115%, 5.39% 0.06%, 6.401% 0.066%, 48.924% 1.604%, 48.924% 1.604%, 49.04% 1.608%, 49.156% 1.611%, 49.272% 1.613%, 49.389% 1.614%, 49.505% 1.614%, 49.622% 1.614%, 49.738% 1.613%, 49.854% 1.611%, 49.971% 1.608%, 50.087% 1.604%, 93.61% 0.061%, 93.61% 0.061%, 94.621% 0.056%, 95.589% 0.111%, 96.499% 0.221%, 97.338% 0.381%, 98.088% 0.587%, 98.736% 0.832%, 99.266% 1.114%, 99.664% 1.426%, 99.913% 1.763%, 100% 2.122%, 100% 97.266%, 100% 97.266%, 99.924% 97.602%, 99.704% 97.921%, 99.351% 98.218%, 98.878% 98.489%, 98.297% 98.731%, 97.62% 98.938%, 96.858% 99.106%, 96.024% 99.232%, 95.129% 99.31%, 94.186% 99.337%, 50.339% 99.337%, 5.814% 99.337%, 5.814% 99.337%, 4.871% 99.31%, 3.976% 99.232%, 3.142% 99.106%, 2.38% 98.938%, 1.703% 98.731%, 1.122% 98.489%, 0.649% 98.218%, 0.296% 97.921%, 0.076% 97.602%, 0% 97.266%, 0% 2.126%);
-    }
+  .company-service-section {
+    padding: 143px 0px 138px;
+    clip-path: polygon(
+      0% 2.126%,
+      0% 2.126%,
+      0.087% 1.767%,
+      0.337% 1.429%,
+      0.735% 1.117%,
+      1.267% 0.836%,
+      1.916% 0.59%,
+      2.668% 0.384%,
+      3.508% 0.224%,
+      4.42% 0.115%,
+      5.39% 0.06%,
+      6.401% 0.066%,
+      48.924% 1.604%,
+      48.924% 1.604%,
+      49.04% 1.608%,
+      49.156% 1.611%,
+      49.272% 1.613%,
+      49.389% 1.614%,
+      49.505% 1.614%,
+      49.622% 1.614%,
+      49.738% 1.613%,
+      49.854% 1.611%,
+      49.971% 1.608%,
+      50.087% 1.604%,
+      93.61% 0.061%,
+      93.61% 0.061%,
+      94.621% 0.056%,
+      95.589% 0.111%,
+      96.499% 0.221%,
+      97.338% 0.381%,
+      98.088% 0.587%,
+      98.736% 0.832%,
+      99.266% 1.114%,
+      99.664% 1.426%,
+      99.913% 1.763%,
+      100% 2.122%,
+      100% 97.266%,
+      100% 97.266%,
+      99.924% 97.602%,
+      99.704% 97.921%,
+      99.351% 98.218%,
+      98.878% 98.489%,
+      98.297% 98.731%,
+      97.62% 98.938%,
+      96.858% 99.106%,
+      96.024% 99.232%,
+      95.129% 99.31%,
+      94.186% 99.337%,
+      50.339% 99.337%,
+      5.814% 99.337%,
+      5.814% 99.337%,
+      4.871% 99.31%,
+      3.976% 99.232%,
+      3.142% 99.106%,
+      2.38% 98.938%,
+      1.703% 98.731%,
+      1.122% 98.489%,
+      0.649% 98.218%,
+      0.296% 97.921%,
+      0.076% 97.602%,
+      0% 97.266%,
+      0% 2.126%
+    );
+  }
 
-    .footer-wrapper {
-        background: none;
-        padding-top: 50px;
-    }
+  .footer-wrapper {
+    background: none;
+    padding-top: 50px;
+  }
 
-    .footer-shadow {
-        display: block;
-    }
+  .footer-shadow {
+    display: block;
+  }
 
-    .tab-paragraph {
-        font-size: 19px;
-    }
+  .tab-paragraph {
+    font-size: 19px;
+  }
 
-    .tab-content h3 {
-        font-size: clamp(30px, 4.4vw, 59px);
-        font-weight: 700;
-    }
+  .tab-content h3 {
+    font-size: clamp(30px, 4.4vw, 59px);
+    font-weight: 700;
+  }
 
-    .immer {
-        background-size: 100%;
-        position: relative;
-        padding: 190px 0px 188px;
-        margin-top: -252px;
-    }
+  .immer {
+    background-size: 100%;
+    position: relative;
+    padding: 190px 0px 188px;
+    margin-top: -252px;
+  }
 }
 
 @media screen and (max-width: 830px) {
-    .border-shpa img {
-        width: 65%;
-        margin-right: -12%;
-        margin-top: -7%;
-    }
+  .border-shpa img {
+    width: 65%;
+    margin-right: -12%;
+    margin-top: -7%;
+  }
 
-    .center-home-img img {
-        width: 27%;
-    }
+  .center-home-img img {
+    width: 27%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .blur-img {
-        display: none;
-    }
+  .blur-img {
+    display: none;
+  }
 
-    .footer {
-        margin-top: -197px;
-    }
+  .footer {
+    margin-top: -197px;
+  }
 
-    .service-mobile-cta {
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-    }
+  .service-mobile-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
 
-    .service-cta {
-        display: none;
-    }
+  .service-cta {
+    display: none;
+  }
 
-    .immer-pragrap a {
-        display: none;
-    }
+  .immer-pragrap a {
+    display: none;
+  }
 
-    .company-list-item {
-        height: 332px;
-    }
+  .company-list-item {
+    height: 332px;
+  }
 
-    .service-card {
-        display: none;
-    }
+  .service-card {
+    display: none;
+  }
 
-    .immer {
-        padding: 108px 0px 125px;
-        margin-top: -118px;
-        border-radius: 0px;
-        background-color: rgb(0, 0, 0);
-        margin-bottom: 100px;
-        background-position: center bottom;
-    }
+  .immer {
+    padding: 108px 0px 125px;
+    margin-top: -118px;
+    border-radius: 0px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 100px;
+    background-position: center bottom;
+  }
 
-    .banner-content h1 {
-        font-size: 40px;
-    }
+  .banner-content h1 {
+    font-size: 40px;
+  }
 
-    .banner-content h4 {
-        font-size: 20px;
-    }
+  .banner-content h4 {
+    font-size: 20px;
+  }
 
-    .banner-button {
-        margin-top: 104px;
-    }
+  .banner-button {
+    margin-top: 104px;
+  }
 
-    .banner {
-        padding-top: 96px;
-        padding-bottom: 200px;
-    }
+  .banner {
+    padding-top: 96px;
+    padding-bottom: 200px;
+  }
 
-    img.banner-top-point {
-        width: 30px;
-    }
+  img.banner-top-point {
+    width: 30px;
+  }
 
-    .view-btn-area {
-        padding: 32px 0px 100px;
-    }
+  .view-btn-area {
+    padding: 32px 0px 100px;
+  }
 
-    .slider-social {
-        margin-left: 0px;
-    }
+  .slider-social {
+    margin-left: 0px;
+  }
 
-    .roted-ulter {
-        margin-right: 0px;
-    }
+  .roted-ulter {
+    margin-right: 0px;
+  }
 
-    .service-card-wrapper {
-        border-radius: 42px;
-        padding: 85px 40px;
-        clip-path: polygon(0% 3.643%, 0% 3.643%, 0.106% 2.987%, 0.412% 2.375%, 0.895% 1.815%, 1.537% 1.317%, 2.317% 0.891%, 3.213% 0.546%, 4.207% 0.292%, 5.276% 0.137%, 6.401% 0.091%, 7.562% 0.164%, 49.415% 5.003%, 49.415% 5.003%, 49.67% 5.029%, 49.925% 5.05%, 50.182% 5.064%, 50.44% 5.073%, 50.697% 5.075%, 50.955% 5.072%, 51.212% 5.063%, 51.469% 5.047%, 51.725% 5.026%, 51.979% 4.999%, 92.404% 0.193%, 92.404% 0.193%, 93.568% 0.116%, 94.697% 0.159%, 95.771% 0.312%, 96.769% 0.565%, 97.67% 0.91%, 98.453% 1.336%, 99.099% 1.834%, 99.586% 2.395%, 99.893% 3.01%, 100% 3.668%, 100% 91.816%, 100% 91.816%, 99.936% 92.321%, 99.751% 92.807%, 99.451% 93.266%, 99.046% 93.695%, 98.544% 94.087%, 97.951% 94.437%, 97.278% 94.74%, 96.531% 94.989%, 95.718% 95.181%, 94.849% 95.308%, 51.032% 99.88%, 51.032% 99.88%, 50.804% 99.902%, 50.575% 99.918%, 50.345% 99.93%, 50.114% 99.937%, 49.884% 99.939%, 49.653% 99.937%, 49.423% 99.93%, 49.193% 99.918%, 48.964% 99.901%, 48.735% 99.88%, 5.146% 95.31%, 5.146% 95.31%, 4.277% 95.182%, 3.466% 94.991%, 2.719% 94.741%, 2.046% 94.438%, 1.455% 94.088%, 0.952% 93.696%, 0.548% 93.268%, 0.249% 92.809%, 0.064% 92.324%, 0% 91.818%, 0% 3.643%);
-    }
+  .service-card-wrapper {
+    border-radius: 42px;
+    padding: 85px 40px;
+    clip-path: polygon(
+      0% 3.643%,
+      0% 3.643%,
+      0.106% 2.987%,
+      0.412% 2.375%,
+      0.895% 1.815%,
+      1.537% 1.317%,
+      2.317% 0.891%,
+      3.213% 0.546%,
+      4.207% 0.292%,
+      5.276% 0.137%,
+      6.401% 0.091%,
+      7.562% 0.164%,
+      49.415% 5.003%,
+      49.415% 5.003%,
+      49.67% 5.029%,
+      49.925% 5.05%,
+      50.182% 5.064%,
+      50.44% 5.073%,
+      50.697% 5.075%,
+      50.955% 5.072%,
+      51.212% 5.063%,
+      51.469% 5.047%,
+      51.725% 5.026%,
+      51.979% 4.999%,
+      92.404% 0.193%,
+      92.404% 0.193%,
+      93.568% 0.116%,
+      94.697% 0.159%,
+      95.771% 0.312%,
+      96.769% 0.565%,
+      97.67% 0.91%,
+      98.453% 1.336%,
+      99.099% 1.834%,
+      99.586% 2.395%,
+      99.893% 3.01%,
+      100% 3.668%,
+      100% 91.816%,
+      100% 91.816%,
+      99.936% 92.321%,
+      99.751% 92.807%,
+      99.451% 93.266%,
+      99.046% 93.695%,
+      98.544% 94.087%,
+      97.951% 94.437%,
+      97.278% 94.74%,
+      96.531% 94.989%,
+      95.718% 95.181%,
+      94.849% 95.308%,
+      51.032% 99.88%,
+      51.032% 99.88%,
+      50.804% 99.902%,
+      50.575% 99.918%,
+      50.345% 99.93%,
+      50.114% 99.937%,
+      49.884% 99.939%,
+      49.653% 99.937%,
+      49.423% 99.93%,
+      49.193% 99.918%,
+      48.964% 99.901%,
+      48.735% 99.88%,
+      5.146% 95.31%,
+      5.146% 95.31%,
+      4.277% 95.182%,
+      3.466% 94.991%,
+      2.719% 94.741%,
+      2.046% 94.438%,
+      1.455% 94.088%,
+      0.952% 93.696%,
+      0.548% 93.268%,
+      0.249% 92.809%,
+      0.064% 92.324%,
+      0% 91.818%,
+      0% 3.643%
+    );
+  }
 
-    .footer-wrapper {
-        background-image: none;
-        padding: 33px 0px 106px;
-    }
+  .footer-wrapper {
+    background-image: none;
+    padding: 33px 0px 106px;
+  }
 
-    .vorteile-list {
-        padding: 0px 27px;
-    }
+  .vorteile-list {
+    padding: 0px 27px;
+  }
 
-    .tab-paragraph {
-        font-size: 20px;
-    }
+  .tab-paragraph {
+    font-size: 20px;
+  }
 
-    .second-service-col {
-        padding-bottom: 0px;
-    }
+  .second-service-col {
+    padding-bottom: 0px;
+  }
 
-    .last-service-col {
-        padding-bottom: 0px;
-    }
+  .last-service-col {
+    padding-bottom: 0px;
+  }
 
-    .mobile-slider {
-        display: block;
-    }
+  .mobile-slider {
+    display: block;
+  }
 
-    .desktop-slider {
-        display: none;
-    }
+  .desktop-slider {
+    display: none;
+  }
 
-    .social-service-section {
-        margin-top: -149px;
-        clip-path: polygon(0% 2.023%, 0% 2.023%, 0.087% 1.682%, 0.339% 1.361%, 0.74% 1.065%, 1.275% 0.799%, 1.929% 0.566%, 2.685% 0.372%, 3.529% 0.222%, 4.446% 0.119%, 5.42% 0.069%, 6.435% 0.076%, 48.89% 1.612%, 48.89% 1.612%, 49.013% 1.616%, 49.136% 1.619%, 49.259% 1.622%, 49.382% 1.623%, 49.505% 1.623%, 49.628% 1.623%, 49.752% 1.622%, 49.875% 1.62%, 49.998% 1.617%, 50.12% 1.613%, 93.577% 0.071%, 93.577% 0.071%, 94.591% 0.065%, 95.563% 0.115%, 96.478% 0.218%, 97.321% 0.369%, 98.076% 0.563%, 98.728% 0.796%, 99.261% 1.062%, 99.662% 1.358%, 99.913% 1.678%, 100% 2.018%, 100% 97.416%, 100% 97.416%, 99.924% 97.733%, 99.704% 98.035%, 99.351% 98.316%, 98.878% 98.572%, 98.297% 98.8%, 97.62% 98.996%, 96.858% 99.155%, 96.024% 99.274%, 95.129% 99.348%, 94.186% 99.374%, 50.339% 99.374%, 5.814% 99.374%, 5.814% 99.374%, 4.871% 99.348%, 3.976% 99.274%, 3.142% 99.155%, 2.38% 98.996%, 1.703% 98.8%, 1.122% 98.572%, 0.649% 98.316%, 0.296% 98.035%, 0.076% 97.733%, 0% 97.416%, 0% 2.023%);
-    }
+  .social-service-section {
+    margin-top: -149px;
+    clip-path: polygon(
+      0% 2.023%,
+      0% 2.023%,
+      0.087% 1.682%,
+      0.339% 1.361%,
+      0.74% 1.065%,
+      1.275% 0.799%,
+      1.929% 0.566%,
+      2.685% 0.372%,
+      3.529% 0.222%,
+      4.446% 0.119%,
+      5.42% 0.069%,
+      6.435% 0.076%,
+      48.89% 1.612%,
+      48.89% 1.612%,
+      49.013% 1.616%,
+      49.136% 1.619%,
+      49.259% 1.622%,
+      49.382% 1.623%,
+      49.505% 1.623%,
+      49.628% 1.623%,
+      49.752% 1.622%,
+      49.875% 1.62%,
+      49.998% 1.617%,
+      50.12% 1.613%,
+      93.577% 0.071%,
+      93.577% 0.071%,
+      94.591% 0.065%,
+      95.563% 0.115%,
+      96.478% 0.218%,
+      97.321% 0.369%,
+      98.076% 0.563%,
+      98.728% 0.796%,
+      99.261% 1.062%,
+      99.662% 1.358%,
+      99.913% 1.678%,
+      100% 2.018%,
+      100% 97.416%,
+      100% 97.416%,
+      99.924% 97.733%,
+      99.704% 98.035%,
+      99.351% 98.316%,
+      98.878% 98.572%,
+      98.297% 98.8%,
+      97.62% 98.996%,
+      96.858% 99.155%,
+      96.024% 99.274%,
+      95.129% 99.348%,
+      94.186% 99.374%,
+      50.339% 99.374%,
+      5.814% 99.374%,
+      5.814% 99.374%,
+      4.871% 99.348%,
+      3.976% 99.274%,
+      3.142% 99.155%,
+      2.38% 98.996%,
+      1.703% 98.8%,
+      1.122% 98.572%,
+      0.649% 98.316%,
+      0.296% 98.035%,
+      0.076% 97.733%,
+      0% 97.416%,
+      0% 2.023%
+    );
+  }
 
-    .tab-content h3 {
-        font-size: clamp(39px, 4.4vw, 59px);
-        font-weight: 700;
-    }
+  .tab-content h3 {
+    font-size: clamp(39px, 4.4vw, 59px);
+    font-weight: 700;
+  }
 
-    .company-service-section {
-        padding: 104px 0px 37px;
-    }
+  .company-service-section {
+    padding: 104px 0px 37px;
+  }
 
-    .company-service-section {
-        top: -98px;
-    }
+  .company-service-section {
+    top: -98px;
+  }
 
-    .tab-area-wrapper {
-        padding-bottom: 55px;
-        border-radius: 50px;
-    }
+  .tab-area-wrapper {
+    padding-bottom: 55px;
+    border-radius: 50px;
+  }
 
-    .tab-item {
-        padding: 75px 51px;
-    }
+  .tab-item {
+    padding: 75px 51px;
+  }
 
-    .service {
-        padding-top: 131px;
-    }
+  .service {
+    padding-top: 131px;
+  }
 
-    .footer-vorteile-item ul li {
-        font-size: 35px;
-    }
+  .footer-vorteile-item ul li {
+    font-size: 35px;
+  }
 
-    .footer-bottom-wrapper {
-        padding: 89px 0px 0px;
-        clip-path: polygon(0.913% 3.075%, 0.913% 3.075%, 1.009% 2.519%, 1.283% 1.999%, 1.718% 1.523%, 2.294% 1.1%, 2.995% 0.737%, 3.802% 0.443%, 4.697% 0.224%, 5.66% 0.09%, 6.675% 0.047%, 7.723% 0.105%, 48.423% 4.352%, 48.423% 4.352%, 48.64% 4.372%, 48.858% 4.388%, 49.076% 4.399%, 49.295% 4.406%, 49.514% 4.408%, 49.734% 4.406%, 49.953% 4.4%, 50.171% 4.389%, 50.389% 4.374%, 50.606% 4.354%, 92.298% 0.089%, 92.298% 0.089%, 93.344% 0.033%, 94.356% 0.077%, 95.317% 0.213%, 96.209% 0.432%, 97.013% 0.727%, 97.711% 1.09%, 98.286% 1.512%, 98.719% 1.987%, 98.992% 2.506%, 99.087% 3.061%, 99.087% 96.005%, 99.087% 96.005%, 99.012% 96.496%, 98.796% 96.961%, 98.45% 97.396%, 97.985% 97.792%, 97.415% 98.145%, 96.75% 98.448%, 96.002% 98.694%, 95.183% 98.877%, 94.305% 98.992%, 93.379% 99.031%, 50.332% 99.031%, 6.621% 99.031%, 6.621% 99.031%, 5.695% 98.992%, 4.817% 98.877%, 3.998% 98.694%, 3.25% 98.448%, 2.585% 98.145%, 2.015% 97.792%, 1.55% 97.396%, 1.204% 96.961%, 0.988% 96.496%, 0.913% 96.005%, 0.913% 3.075%);
-    }
+  .footer-bottom-wrapper {
+    padding: 89px 0px 0px;
+    clip-path: polygon(
+      0.913% 3.075%,
+      0.913% 3.075%,
+      1.009% 2.519%,
+      1.283% 1.999%,
+      1.718% 1.523%,
+      2.294% 1.1%,
+      2.995% 0.737%,
+      3.802% 0.443%,
+      4.697% 0.224%,
+      5.66% 0.09%,
+      6.675% 0.047%,
+      7.723% 0.105%,
+      48.423% 4.352%,
+      48.423% 4.352%,
+      48.64% 4.372%,
+      48.858% 4.388%,
+      49.076% 4.399%,
+      49.295% 4.406%,
+      49.514% 4.408%,
+      49.734% 4.406%,
+      49.953% 4.4%,
+      50.171% 4.389%,
+      50.389% 4.374%,
+      50.606% 4.354%,
+      92.298% 0.089%,
+      92.298% 0.089%,
+      93.344% 0.033%,
+      94.356% 0.077%,
+      95.317% 0.213%,
+      96.209% 0.432%,
+      97.013% 0.727%,
+      97.711% 1.09%,
+      98.286% 1.512%,
+      98.719% 1.987%,
+      98.992% 2.506%,
+      99.087% 3.061%,
+      99.087% 96.005%,
+      99.087% 96.005%,
+      99.012% 96.496%,
+      98.796% 96.961%,
+      98.45% 97.396%,
+      97.985% 97.792%,
+      97.415% 98.145%,
+      96.75% 98.448%,
+      96.002% 98.694%,
+      95.183% 98.877%,
+      94.305% 98.992%,
+      93.379% 99.031%,
+      50.332% 99.031%,
+      6.621% 99.031%,
+      6.621% 99.031%,
+      5.695% 98.992%,
+      4.817% 98.877%,
+      3.998% 98.694%,
+      3.25% 98.448%,
+      2.585% 98.145%,
+      2.015% 97.792%,
+      1.55% 97.396%,
+      1.204% 96.961%,
+      0.988% 96.496%,
+      0.913% 96.005%,
+      0.913% 3.075%
+    );
+  }
 
-    .footer-fast-item {
-        border-radius: 0px;
-        clip-path: polygon(0.913% 3.618%, 0.913% 3.618%, 1.006% 2.978%, 1.271% 2.379%, 1.692% 1.829%, 2.252% 1.338%, 2.934% 0.915%, 3.72% 0.568%, 4.593% 0.306%, 5.537% 0.139%, 6.533% 0.076%, 7.565% 0.126%, 48.579% 4.393%, 48.579% 4.393%, 48.766% 4.41%, 48.952% 4.424%, 49.139% 4.434%, 49.327% 4.44%, 49.514% 4.442%, 49.702% 4.44%, 49.89% 4.434%, 50.077% 4.425%, 50.263% 4.412%, 50.45% 4.395%, 92.453% 0.11%, 92.453% 0.11%, 93.483% 0.063%, 94.477% 0.128%, 95.418% 0.296%, 96.289% 0.558%, 97.073% 0.905%, 97.753% 1.328%, 98.311% 1.819%, 98.73% 2.368%, 98.995% 2.966%, 99.087% 3.604%, 99.087% 95.255%, 99.087% 95.255%, 99.012% 95.829%, 98.796% 96.374%, 98.45% 96.882%, 97.985% 97.346%, 97.415% 97.759%, 96.75% 98.113%, 96.002% 98.401%, 95.183% 98.616%, 94.305% 98.75%, 93.379% 98.796%, 50.332% 98.796%, 6.621% 98.796%, 6.621% 98.796%, 5.695% 98.75%, 4.817% 98.616%, 3.998% 98.401%, 3.25% 98.113%, 2.585% 97.759%, 2.015% 97.346%, 1.55% 96.882%, 1.204% 96.374%, 0.988% 95.829%, 0.913% 95.255%, 0.913% 3.618%);
-    }
+  .footer-fast-item {
+    border-radius: 0px;
+    clip-path: polygon(
+      0.913% 3.618%,
+      0.913% 3.618%,
+      1.006% 2.978%,
+      1.271% 2.379%,
+      1.692% 1.829%,
+      2.252% 1.338%,
+      2.934% 0.915%,
+      3.72% 0.568%,
+      4.593% 0.306%,
+      5.537% 0.139%,
+      6.533% 0.076%,
+      7.565% 0.126%,
+      48.579% 4.393%,
+      48.579% 4.393%,
+      48.766% 4.41%,
+      48.952% 4.424%,
+      49.139% 4.434%,
+      49.327% 4.44%,
+      49.514% 4.442%,
+      49.702% 4.44%,
+      49.89% 4.434%,
+      50.077% 4.425%,
+      50.263% 4.412%,
+      50.45% 4.395%,
+      92.453% 0.11%,
+      92.453% 0.11%,
+      93.483% 0.063%,
+      94.477% 0.128%,
+      95.418% 0.296%,
+      96.289% 0.558%,
+      97.073% 0.905%,
+      97.753% 1.328%,
+      98.311% 1.819%,
+      98.73% 2.368%,
+      98.995% 2.966%,
+      99.087% 3.604%,
+      99.087% 95.255%,
+      99.087% 95.255%,
+      99.012% 95.829%,
+      98.796% 96.374%,
+      98.45% 96.882%,
+      97.985% 97.346%,
+      97.415% 97.759%,
+      96.75% 98.113%,
+      96.002% 98.401%,
+      95.183% 98.616%,
+      94.305% 98.75%,
+      93.379% 98.796%,
+      50.332% 98.796%,
+      6.621% 98.796%,
+      6.621% 98.796%,
+      5.695% 98.75%,
+      4.817% 98.616%,
+      3.998% 98.401%,
+      3.25% 98.113%,
+      2.585% 97.759%,
+      2.015% 97.346%,
+      1.55% 96.882%,
+      1.204% 96.374%,
+      0.988% 95.829%,
+      0.913% 95.255%,
+      0.913% 3.618%
+    );
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .border-shpa img {
-        width: 65%;
-        margin-right: -12%;
-        margin-top: -17%;
-    }
+  .border-shpa img {
+    width: 65%;
+    margin-right: -12%;
+    margin-top: -17%;
+  }
 }
 
 @media screen and (max-width: 550px) {
-    .center-image-section {
-        width: 100%;
-    }
+  .center-image-section {
+    width: 100%;
+  }
 
-    .border-shpa img {
-        width: 100%;
-        margin-right: 0px;
-        margin-top: -76%;
-    }
+  .border-shpa img {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: -76%;
+  }
 
-    .center-home-img img {
-        width: 56%;
-    }
+  .center-home-img img {
+    width: 56%;
+  }
 
-    .desktop-shape {
-        display: none;
-    }
+  .desktop-shape {
+    display: none;
+  }
 
-    .mobile-shape {
-        display: block;
-    }
+  .mobile-shape {
+    display: block;
+  }
 
-    .social-service-section {
-        margin-top: -57px;
-    }
+  .social-service-section {
+    margin-top: -57px;
+  }
 
-    .footer-bottom-wrapper {
-        margin-top: -96px;
-        border-radius: 0px;
-        padding-bottom: 20px;
-    }
+  .footer-bottom-wrapper {
+    margin-top: -96px;
+    border-radius: 0px;
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .logo-loading {
-        width: 200px;
-    }
+  .logo-loading {
+    width: 200px;
+  }
 
-    .border-shpa img {
-        width: 100%;
-        margin-right: 0px;
-        margin-top: -86%;
-    }
+  .border-shpa img {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: -86%;
+  }
 
-    .company-service-section {
-        padding: 86px 0px 97px;
-    }
+  .company-service-section {
+    padding: 86px 0px 97px;
+  }
 
-    .banner-content h1 {
-        font-size: 30px;
-    }
+  .banner-content h1 {
+    font-size: 30px;
+  }
 
-    .banner-content h4 {
-        font-size: 17px;
-    }
+  .banner-content h4 {
+    font-size: 17px;
+  }
 
-    .banner-button {
-        margin-top: 25px;
-    }
+  .banner-button {
+    margin-top: 25px;
+  }
 
-    .banner {
-        padding-top: 34px;
-    }
+  .banner {
+    padding-top: 34px;
+  }
 
-    .tab-paragraph {
-        font-size: 15px;
-    }
+  .tab-paragraph {
+    font-size: 15px;
+  }
 
-    .service {
-        padding-top: 107px;
-        padding-bottom: 168px;
-    }
+  .service {
+    padding-top: 107px;
+    padding-bottom: 168px;
+  }
 
-    .cta-alt-btn,
-    .custom-btn {
-        font-size: 12px;
-    }
+  .cta-alt-btn,
+  .custom-btn {
+    font-size: 12px;
+  }
 
-    .footer-title-content h3 {
-        font-size: 19px;
-    }
+  .footer-title-content h3 {
+    font-size: 19px;
+  }
 
-    .footer-title-content h1 {
-        font-size: 35px;
-    }
+  .footer-title-content h1 {
+    font-size: 35px;
+  }
 
-    .footer-title-btn-item .footer-btn {
-        font-size: 10px;
-    }
+  .footer-title-btn-item .footer-btn {
+    font-size: 10px;
+  }
 
-    .footer {
-        margin-top: -215px;
-    }
+  .footer {
+    margin-top: -215px;
+  }
 
-    .footer-fast-item {
-        padding: 88px 37px 37px;
-        margin-top: 33px;
-    }
+  .footer-fast-item {
+    padding: 88px 37px 37px;
+    margin-top: 33px;
+  }
 
-    .footer-vorteile-item ul li {
-        font-size: 23px;
-    }
+  .footer-vorteile-item ul li {
+    font-size: 23px;
+  }
 
-    .footer-vorteile-item h1 {
-        font-size: 30px;
-        margin-bottom: 0px;
-    }
+  .footer-vorteile-item h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
 
-    .service-card-wrapper {
-        padding: 106px 30px;
-    }
+  .service-card-wrapper {
+    padding: 106px 30px;
+  }
 }

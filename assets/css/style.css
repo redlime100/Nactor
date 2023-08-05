@@ -862,7 +862,7 @@ h2.immer-title-color {
 
 /* =====================digital================== */
 .digital-content img {
-  width: 100%;
+  width: 80%;
 }
 
 .top-content {
@@ -1473,6 +1473,7 @@ h2.service-name3 {
 
 .center-main-img {
   position: relative;
+  text-align: center;
 }
 
 .center-home-img img {
@@ -1514,9 +1515,9 @@ h2.service-name3 {
 }
 
 .border-shpa img {
-  width: 100%;
-  margin-top: 5%;
-  margin-right: -20%;
+  width: 80%;
+  margin-top: 2%;
+  margin-right: -17%;
 }
 
 .desital-footer-img img {
