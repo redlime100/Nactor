@@ -409,6 +409,7 @@
     0% 100%,
     0% 8.532%
   );
+  overflow-x: hidden;
 }
 
 .tab-title-area {
@@ -426,7 +427,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: clamp(40px, 5.4vw, 96px);
+  font-size: clamp(55px, 5.4vw, 96px);
   line-height: 85.5px;
   /* 178.125% */
   letter-spacing: -2.64px;
@@ -443,7 +444,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: clamp(20px, 3.4vw, 48px);
+  font-size: clamp(32px, 3.4vw, 48px);
 }
 
 .tab-area {
@@ -819,7 +820,7 @@
 }
 
 .immer-title h2 {
-  font-size: clamp(35px, 5.4vw, 96px);
+  font-size: clamp(48px, 7.4vw, 96px);
   font-style: normal;
   letter-spacing: -5.28px;
   font-weight: 700;
@@ -840,7 +841,7 @@
 }
 
 h2.immer-title-color {
-  font-size: clamp(35px, 5.4vw, 96px);
+  font-size: clamp(40px, 7.4vw, 96px);
   font-style: normal;
   font-weight: 700;
   background: linear-gradient(93deg, #990101 20.74%, rgba(128, 5, 52, 0) 100%);
@@ -850,7 +851,7 @@ h2.immer-title-color {
 }
 
 .immer-pragrap p {
-  font-size: clamp(17px, 2vw, 35px);
+  font-size: clamp(20px, 2vw, 35px);
   line-height: 120%;
   font-weight: 700;
   margin-bottom: 29px;
@@ -1711,4 +1712,7 @@ h2.service-name3 {
 }
 .tab-panel-des {
   padding-right: 115px;
+}
+.mobile-show {
+  display: none;
 }
