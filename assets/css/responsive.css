@@ -2,6 +2,14 @@
   .company-list-item {
     height: 503px;
   }
+
+  .banner {
+    padding-top: 55px;
+    padding-bottom: 272px;
+  }
+  .banner-content h1 {
+    font-size: 100px;
+  }
 }
 
 @media screen and (max-width: 1400px) {
@@ -34,7 +42,7 @@
   }
 
   .banner-content h1 {
-    font-size: 116px;
+    font-size: 90px;
   }
   .tab-panel-2 {
     padding-right: 100px;
