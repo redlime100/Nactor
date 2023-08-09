@@ -16,72 +16,15 @@ $(".faq__que").click(function () {
   $(this.children[1]).addClass("bxs-chevron-down-circle");
 });
 
-// =====================logo slider ============
-var swiper = new Swiper(".logoSlider", {
-  spaceBetween: 30,
-  loop: true,
-  autoplay: {
-    delay: 1000,
-    disableOnInteraction: false,
-    reverseDirection: true,
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-      spaceBetween: 10,
-    },
-    640: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
-    1024: {
-      slidesPerView: 3,
-      spaceBetween: 30,
-    },
-    1200: {
-      slidesPerView: 4,
-      spaceBetween: 30,
-    },
-  },
-});
-
-var swiper = new Swiper(".logoSlider2", {
-  spaceBetween: 30,
-  loop: true,
-  autoplay: {
-    delay: 1000,
-    disableOnInteraction: false,
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-      spaceBetween: 10,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
-
-    1200: {
-      slidesPerView: 3,
-      spaceBetween: 30,
-    },
-  },
-});
-
 // ============Blog=============
 
 var swiper = new Swiper(".blogSlider", {
   centeredSlides: true,
   loop: true,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
 
   navigation: {
     nextEl: ".swiper-button-next",
@@ -108,10 +51,10 @@ var swiper = new Swiper(".blogSliderMobile", {
   slidesPerView: 1.2,
   centeredSlides: true,
   loop: true,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
 
   navigation: {
     nextEl: ".swiper-button-next",
