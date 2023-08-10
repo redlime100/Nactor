@@ -7,7 +7,7 @@
 }
 
 .footer-wrapper {
-  padding: 150px 0 150px 0;
+  padding: 97px 0 150px 0;
   background: #ddd;
   border-radius: 70px 70px 0 0;
   -webkit-clip-path: polygon(50% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
@@ -149,7 +149,7 @@
 }
 
 .footer-title-content .title-gradient {
-  background: linear-gradient(250deg, #441db9 15.73%, #fff 100%);
+  background: linear-gradient(273deg, #441db9 0.73%, #fff 65%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -158,8 +158,8 @@
 .footer-title-content h3 {
   font-size: 64px;
   font-style: normal;
-  font-weight: 900;
-  letter-spacing: -3.52px;
+  font-weight: 700;
+  letter-spacing: -5.52px;
   display: initial;
 }
 
@@ -167,7 +167,7 @@
   font-size: 128px;
   line-height: 150px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: -7.04px;
   display: inline-block;
 }
@@ -182,7 +182,7 @@
 
 .footer-vorteile-item h1 {
   font-size: 64px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 70px;
   background: linear-gradient(
     88deg,
@@ -294,7 +294,7 @@
 
 .footer-all-service-item .service-item-card .service-title {
   font-size: 60px;
-  line-height: 70px;
+  line-height: 50px;
   font-weight: 700;
   position: relative;
   color: #fff;
@@ -661,8 +661,7 @@ button.revolution-btn {
   font-style: normal;
   font-weight: 700;
   /* line-height: 81px; */
-  /* letter-spacing: -5.28px; */
-  letter-spacing: -3.52px;
+  letter-spacing: -5.28px;
 }
 
 .company-list-item p {
