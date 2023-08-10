@@ -146,11 +146,13 @@ $(document).ready(function() {
       autoplayDisableOnInteraction: false,
     },
     freeMode: true,
-    speed: 5000,
+    speed: 1000,
     freeModeMomentum: false,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
+    speed: 1000,
+
     },
     breakpoints: {
       0: {
