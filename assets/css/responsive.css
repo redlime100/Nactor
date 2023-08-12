@@ -22,11 +22,33 @@
 }
 
 @media screen and (max-width: 1441px) {
+  .digital-content {
+    padding-top: 60px;
+    padding-bottom: 258px;
+  }
+  .digital-content img {
+    width: 64%;
+  }
+  .blur-img img {
+    width: 20%;
+  }
+  .blur-img {
+    left: 3%;
+    right: 3%;
+  }
+  .point {
+    width: 50px !important;
+    margin-top: 85px;
+  }
   .immer-pragrap {
     text-align: right;
     padding-left: 287px;
   }
-
+  .border-shpa img {
+    width: 53%;
+    margin-top: -7%;
+    margin-right: -11%;
+  }
   .tab-area-wrapper {
     padding: 94px 0;
     margin-top: -67px;
@@ -45,7 +67,8 @@
   }
   .bottom-content h2,
   .top-content h2 {
-    font-size: 130px;
+    font-size: 75px;
+    line-height: 87%;
   }
   .tab-title-area h3 {
     font-size: clamp(30px, 1.4vw, 48px);
