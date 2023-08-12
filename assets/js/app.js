@@ -72,12 +72,12 @@ $(document).ready(function () {
   var swiper = new Swiper(".companySlider", {
     spaceBetween: 30,
     loop: true,
-    autoplay: {
-      delay: 1000,
-      disableOnInteraction: false,
-      draggable: true,
-      autoplayDisableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 1000,
+    //   disableOnInteraction: false,
+    //   draggable: true,
+    //   autoplayDisableOnInteraction: false,
+    // },
     freeMode: true,
     speed: 1000,
     freeModeMomentum: false,

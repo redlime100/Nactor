@@ -1,7 +1,7 @@
 @media screen and (max-width: 1500px) {
   .company-list-item {
-    height: 330px;
-    font-size: clamp(13px, 1.4vw, 16px);
+    height: 269px;
+    font-size: clamp(12px, 1.4vw, 14px);
   }
 
   .banner {
@@ -22,6 +22,69 @@
 }
 
 @media screen and (max-width: 1441px) {
+  .service {
+    padding-top: 220px;
+  }
+  .company-slider-wrapper .company-title-section h1 {
+    font-size: clamp(48px, 4.4vw, 96px);
+  }
+  .company-slider-wrapper .company-title-section span {
+    font-size: clamp(30px, 2.4vw, 64px);
+  }
+  .footer-glossar {
+    margin-top: 10px !important;
+  }
+  .social-media-wrapper a img {
+    width: 116px;
+  }
+  .footer-title-content {
+    padding: 23px 0;
+  }
+  .footer-title-content h3 {
+    font-size: 48px;
+  }
+  .footer-title-content h1 {
+    font-size: 102px;
+    line-height: 120px;
+  }
+  .footer-vorteile-item h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+  }
+  .footer-vorteile-item ul li {
+    font-size: 21px;
+  }
+  .footer-bottom-wrapper::after {
+    top: 48px;
+  }
+  .footer-bottom-wrapper {
+    padding: 132px 0 83px 0;
+  }
+  .footer-fast-item {
+    padding: 64px 44px;
+  }
+  .footer-link {
+    font-size: 25px;
+    line-height: 12px;
+  }
+  .service-card-wrapper {
+    padding: 80px 50px;
+  }
+  .service-title {
+    font-size: 40px !important;
+  }
+  .company-slider-wrapper .company-title-section {
+    margin-bottom: 20px !important;
+  }
+  a.mega-link {
+    font-size: 25px;
+  }
+  .service-card-inner h3 {
+    font-size: 20px;
+  }
+  .name-image h2 {
+    font-size: clamp(20px, 1.78vw, 45px);
+  }
   .digital-content {
     padding-top: 60px;
     padding-bottom: 258px;
@@ -45,9 +108,9 @@
     padding-left: 287px;
   }
   .border-shpa img {
-    width: 53%;
-    margin-top: -7%;
-    margin-right: -11%;
+    width: 55%;
+    margin-top: -5%;
+    margin-right: -13%;
   }
   .tab-area-wrapper {
     padding: 94px 0;
@@ -125,7 +188,7 @@
   }
 
   .company-service-section {
-    padding: 120px 0px 48px;
+    padding: 79px 0px 48px;
   }
 
   .banner-button {
@@ -149,7 +212,7 @@
   }
 
   .name-image img {
-    width: 100px;
+    width: 70px;
   }
 
   .last-service-col {

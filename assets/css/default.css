@@ -129,9 +129,9 @@ table.table {
 }
 
 .custom-btn:hover {
-  background: none;
+  background: var(--white-color);
   color: var(--main-color);
-  border: 2px solid var(--main-color);
+  border: 2px solid var(--white-color);
 }
 
 .btn:focus {
