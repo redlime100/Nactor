@@ -21,10 +21,10 @@ $(".faq__que").click(function () {
 var swiper = new Swiper(".blogSlider", {
   centeredSlides: true,
   loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
 
   navigation: {
     nextEl: ".swiper-button-next",
@@ -82,10 +82,9 @@ $(document).ready(function () {
     speed: 1000,
     freeModeMomentum: false,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    speed: 1000,
-
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+      speed: 1000,
     },
     breakpoints: {
       0: {

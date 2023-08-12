@@ -22,18 +22,40 @@
 }
 
 @media screen and (max-width: 1441px) {
+  .immer-pragrap {
+    text-align: right;
+    padding-left: 287px;
+  }
+
+  .tab-area-wrapper {
+    padding: 94px 0;
+    margin-top: -67px;
+    padding-bottom: 241px;
+  }
+  .immer {
+    padding: 104px 0;
+    padding-bottom: 300px;
+  }
+  .tab-content h3 {
+    font-size: clamp(30px, 2.6vw, 64px);
+    padding-bottom: 3px;
+  }
+  .slider-social {
+    height: 95px;
+  }
   .bottom-content h2,
   .top-content h2 {
     font-size: 130px;
   }
   .tab-title-area h3 {
-    font-size: clamp(30px, 2.4vw, 48px);
+    font-size: clamp(30px, 1.4vw, 48px);
   }
   .tab-title-area h2 {
-    font-size: clamp(45px, 4.4vw, 96px);
+    font-size: clamp(45px, 3.4vw, 96px);
+    line-height: 56.5px;
   }
   .nav-tabs-btn {
-    font-size: clamp(14px, 1.4vw, 24px);
+    font-size: clamp(14px, 1.3vw, 24px);
   }
   .tab-area {
     margin-top: 12px;
@@ -42,10 +64,10 @@
     gap: 20px;
   }
   .tab-paragraph {
-    font-size: 20px;
+    font-size: 19px;
   }
   .tab-item {
-    height: 520px;
+    height: 419px;
   }
   .immer-title h2,
   h2.immer-title-color {
@@ -56,7 +78,7 @@
   }
   .view-btn-area {
     position: relative;
-    padding: 74px 0px;
+    padding: 53px 0px;
   }
 
   .blog-post-top-title h3 {
@@ -66,12 +88,12 @@
 
   .blog-content {
     margin: 15px 0px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
   }
 
   .blog-post-top-title h1 {
-    font-size: clamp(30px, 3.4vw, 45px);
+    font-size: clamp(30px, 3.4vw, 37px);
     padding-bottom: 5px;
   }
 
@@ -116,7 +138,7 @@
   }
 
   .banner-content h1 {
-    font-size: 75px;
+    font-size: 50px;
     letter-spacing: -5.96px;
   }
 
