@@ -20,9 +20,9 @@
 .banner-content h1 {
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   font-family: Inter;
-  font-size: clamp(50px, 8.4vw, 128px);
+  font-size: clamp(26px, 5.4vw, 128px);
   line-height: 100%;
-  letter-spacing: -8.96px;
+  letter-spacing: -4.96px;
   font-weight: 700;
   background: rgb(147, 146, 146);
   background: linear-gradient(
@@ -63,7 +63,7 @@
 .banner-content h4 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 36px;
+  font-size: clamp(20px, 2.4vw, 30px);
   font-weight: 700;
   margin-top: 21px;
   letter-spacing: -1.98px;
@@ -78,13 +78,13 @@
 }
 
 .banner-button {
-  margin-top: 75px;
+  margin-top: 3%;
 }
 
 .banner {
-  padding-top: 138px;
+  padding-top: 3%;
   position: relative;
-  padding-bottom: 307px;
+  padding-bottom: 13%;
 }
 
 .banner-img {

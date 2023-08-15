@@ -10,7 +10,6 @@
   }
 
   .banner-content h1 {
-    font-size: 100px;
   }
 
   .company-list-item .company-user-titles span,
@@ -224,7 +223,6 @@
   }
 
   .banner-content h1 {
-    font-size: 50px;
     letter-spacing: -5.96px;
   }
 
@@ -278,7 +276,7 @@
   }
 
   .banner-content h1 {
-    font-size: 60px;
+    font-size: clamp(30px, 6.4vw, 128px);
     letter-spacing: -3.96px;
   }
 
