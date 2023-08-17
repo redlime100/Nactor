@@ -977,7 +977,7 @@
 
   .banner {
     padding-top: 96px;
-    padding-bottom: 200px;
+    padding-bottom: 120px;
   }
 
   img.banner-top-point {
@@ -1428,6 +1428,15 @@
 
   .banner-content h4 {
     font-size: 17px;
+    letter-spacing: -0.98px;
+    background: radial-gradient(
+      62.94% 85.59% at 48.12% 56.38%,
+      #989898 0%,
+      rgba(206, 198, 198, 0) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .banner-button {
@@ -1436,6 +1445,7 @@
 
   .banner {
     padding-top: 34px;
+    padding-bottom: 120px;
   }
 
   .tab-paragraph {
